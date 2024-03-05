@@ -1,0 +1,9 @@
+{
+  "default": [
+    {
+      "name": "Home",
+      "path": "/"
+    }
+  ],
+  "authenticated": []
+}
