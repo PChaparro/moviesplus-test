@@ -25,9 +25,9 @@ ol {
   --brand-primary--hover: #d90a29;
 
   /* Font sizes */
-  --fz-base: 1rem;
-  --fz-lg: 1.125rem;
-  --fz-xl: 1.25rem;
+  --fz-base: clamp(1rem, 2vw, 1.125rem);
+  --fz-lg: clamp(1.125rem, 2vw, 1.25rem);
+  --fz-xl: clamp(1.25rem, 2vw, 1.375rem);
 }
 
 /* Global styles */
