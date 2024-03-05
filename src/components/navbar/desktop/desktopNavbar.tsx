@@ -1,34 +1,24 @@
-import MoviesPlusLogo from '@/assets/movies-plus-logo.svg';
-import NavbarLinks from '@/data/navbar/links.json';
 import { Link, useRouterState } from '@tanstack/react-router';
 import clsx from 'clsx';
 
-import { buttonVariantClassnames } from '../../button/button';
+import navbarLinks from '@/data/navbar/links.json';
+
+import { buttonVariantClassnames } from '@/components/button/button';
+import { MoviesPlusLogo } from '@/components/moviesPlusLogo/moviesPlusLogo';
+
 import Styles from './desktopNavbar.module.css';
 
-const { default: defaultLinks } = NavbarLinks;
+const { default: defaultLinks } = navbarLinks;
 
 export const DesktopNavbar = () => {
   const router = useRouterState();
   const {
     location: { pathname },
   } = router;
-  console.log({ pathname });
 
   return (
     <nav className={`${Styles.nav} container`}>
-      {/* Logo */}
-      <Link to='/' className={Styles.nav__logo}>
-        <img
-          src={MoviesPlusLogo}
-          alt='Movies Plus Logo'
-          width='80'
-          height='80'
-        />
-        <span className={Styles['nav__logo-text']} translate='no'>
-          Movies+
-        </span>
-      </Link>
+      <MoviesPlusLogo />
 
       {/* Links */}
       <ul className={Styles['nav__links-list']}>
@@ -46,7 +36,7 @@ export const DesktopNavbar = () => {
         ))}
       </ul>
 
-      {/* Session buttons */}
+      {/* Session items */}
       <Link
         to='/login'
         className={buttonVariantClassnames({ variant: 'primary' })}

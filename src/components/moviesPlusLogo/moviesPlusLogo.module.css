@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__text {
+  color: var(--brand-primary);
+  font-weight: bold;
+  font-size: var(--fz-xl);
+}

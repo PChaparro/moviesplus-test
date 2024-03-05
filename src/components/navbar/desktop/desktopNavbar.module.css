@@ -6,18 +6,6 @@
   height: 100px;
 }
 
-.nav__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav__logo-text {
-  color: var(--brand-primary);
-  font-weight: bold;
-  font-size: var(--fz-xl);
-}
-
 .nav__links-list {
   display: flex;
   flex-grow: 1;
@@ -37,8 +25,11 @@
 
 .nav__link--active,
 .nav__link:hover {
-  border-block-end-color: var(--brand-primary);
-  color: var(--brand-primary);
+  color: var(--text-color);
+}
+
+.nav__link--active {
+  border-block-end-color: var(--text-color);
 }
 
 @media screen and (max-width: 768px) {
