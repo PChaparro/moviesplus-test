@@ -1,6 +1,46 @@
 /* Reset default styles */
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Variables */
+:root {
+  /* Colors f51434 */
+  --bg-color: #0a0a12;
+  --text-color: #fff;
+  --text-color--opaque: #c3c3c3;
+  --brand-primary: #f51434;
+  --brand-primary--hover: #d90a29;
+
+  /* Font sizes */
+  --fz-base: 1rem;
+  --fz-lg: 1.125rem;
+  --fz-xl: 1.25rem;
+}
+
+/* Global styles */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: var(--fz-base);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Utility classes */
+.container {
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  max-width: 1200px;
 }
