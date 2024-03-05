@@ -1,5 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 
+import { FeaturedMovieHeader } from '@/components/home/header/featuredMovieHeader';
+
 export const Route = createFileRoute('/')({
   component: Home,
 });
@@ -7,8 +9,7 @@ export const Route = createFileRoute('/')({
 function Home() {
   return (
     <main className='container'>
-      This is the index
-      <section id='categories'>Categories</section>
+      <FeaturedMovieHeader />
     </main>
   );
 }
