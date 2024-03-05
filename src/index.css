@@ -41,6 +41,6 @@ body {
 /* Utility classes */
 .container {
   margin: 0 auto;
-  padding: 0 0.5rem;
+  padding: 0 1.125rem;
   max-width: 1200px;
 }
