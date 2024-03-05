@@ -1,10 +1,10 @@
 import { createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/')({
-  component: Index,
+  component: Home,
 });
 
-function Index() {
+function Home() {
   return (
     <main className='container'>
       This is the index
