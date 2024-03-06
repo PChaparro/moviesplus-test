@@ -44,3 +44,7 @@ body {
   padding: 0 1.125rem;
   max-width: 1200px;
 }
+
+.mr-2 {
+  margin-inline-end: 0.5rem;
+}

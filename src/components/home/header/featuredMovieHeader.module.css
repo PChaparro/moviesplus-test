@@ -54,7 +54,3 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
-.header__button {
-  gap: 0.5rem;
-}

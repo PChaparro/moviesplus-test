@@ -25,8 +25,8 @@ export const FeaturedMovieHeader = () => {
             Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' by Kai
             Bird and Martin J. Sherwin.
           </p>
-          <Button className={Styles.header__button}>
-            <PlayIcon />
+          <Button>
+            <PlayIcon className='mr-2' />
             View now
           </Button>
         </div>
