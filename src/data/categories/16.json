@@ -428,47 +428,6 @@
     [
       {
         "adult": false,
-        "backdrop_path": "/auXrHU6O17n9Tz11SHReoorjrU6.jpg",
-        "id": 1075794,
-        "original_language": "en",
-        "original_title": "Leo",
-        "overview": "Jaded 74-year-old lizard Leo has been stuck in the same Florida classroom for decades with his terrarium-mate turtle. When he learns he only has one year left to live, he plans to escape to experience life on the outside but instead gets caught up in the problems of his anxious students \u2014 including an impossibly mean substitute teacher.",
-        "popularity": 164.427,
-        "poster_path": "/pD6sL4vntUOXHmuvJPPZAgvyfd9.jpg",
-        "release_date": "2023-11-17",
-        "title": "Leo",
-        "video": false,
-        "vote_average": 7.493,
-        "vote_count": 969,
-        "genres": [
-          { "id": 16, "name": "Animation" },
-          { "id": 35, "name": "Comedy" },
-          { "id": 10751, "name": "Family" }
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
-        "id": 838240,
-        "original_language": "es",
-        "original_title": "Robot Dreams",
-        "overview": "Dog lives in Manhattan and he's tired of being alone. One day he decides to build himself a robot, a companion. Their friendship blossoms, until they become inseparable, to the rhythm of 80's NYC. One summer night, Dog, with great sadness, is forced to abandon Robot at the beach. Will they ever meet again?",
-        "popularity": 162.688,
-        "poster_path": "/qLtK6DFeuJNuB3THGVDklirhQ8u.jpg",
-        "release_date": "2023-10-20",
-        "title": "Robot Dreams",
-        "video": false,
-        "vote_average": 7.3,
-        "vote_count": 84,
-        "genres": [
-          { "id": 16, "name": "Animation" },
-          { "id": 35, "name": "Comedy" },
-          { "id": 18, "name": "Drama" },
-          { "id": 10751, "name": "Family" }
-        ]
-      },
-      {
-        "adult": false,
         "backdrop_path": "/faXT8V80JRhnArTAeYXz0Eutpv9.jpg",
         "id": 315162,
         "original_language": "en",
@@ -773,25 +732,6 @@
       },
       {
         "adult": false,
-        "backdrop_path": "/2q3B90h2hZ6xJTvna9CIFDNaIr4.jpg",
-        "id": 9473,
-        "original_language": "en",
-        "original_title": "South Park: Bigger, Longer & Uncut",
-        "overview": "When the four boys see an R-rated movie featuring Canadians Terrance and Philip, they are pronounced \"corrupted\", and their parents pressure the United States to wage war against Canada.",
-        "popularity": 162.588,
-        "poster_path": "/tS0PedvA2mFO9VCHYwQpaU1K36U.jpg",
-        "release_date": "1999-06-30",
-        "title": "South Park: Bigger, Longer & Uncut",
-        "video": false,
-        "vote_average": 7.261,
-        "vote_count": 2538,
-        "genres": [
-          { "id": 16, "name": "Animation" },
-          { "id": 35, "name": "Comedy" }
-        ]
-      },
-      {
-        "adult": false,
         "backdrop_path": "/8GHxjXlI5rqyTBuVNekGTPjG5T6.jpg",
         "id": 14836,
         "original_language": "en",
@@ -898,26 +838,6 @@
       },
       {
         "adult": false,
-        "backdrop_path": "/8GHxjXlI5rqyTBuVNekGTPjG5T6.jpg",
-        "id": 14836,
-        "original_language": "en",
-        "original_title": "Coraline",
-        "overview": "A young girl discovers an idealized parallel universe behind a secret door in her new home, unaware that it contains a sinister secret.",
-        "popularity": 101.534,
-        "poster_path": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
-        "release_date": "2009-02-05",
-        "title": "Coraline",
-        "video": false,
-        "vote_average": 7.869,
-        "vote_count": 7379,
-        "genres": [
-          { "id": 16, "name": "Animation" },
-          { "id": 10751, "name": "Family" },
-          { "id": 14, "name": "Fantasy" }
-        ]
-      },
-      {
-        "adult": false,
         "backdrop_path": "/lyHmhoRj3zXSdeCYbs2oOXLCF4K.jpg",
         "id": 459003,
         "original_language": "uk",
@@ -952,27 +872,6 @@
         "vote_average": 7.6,
         "vote_count": 13271,
         "genres": [
-          { "id": 16, "name": "Animation" },
-          { "id": 35, "name": "Comedy" },
-          { "id": 10751, "name": "Family" }
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/lxD5ak7BOoinRNehOCA85CQ8ubr.jpg",
-        "id": 862,
-        "original_language": "en",
-        "original_title": "Toy Story",
-        "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
-        "popularity": 98.865,
-        "poster_path": "/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg",
-        "release_date": "1995-10-30",
-        "title": "Toy Story",
-        "video": false,
-        "vote_average": 7.972,
-        "vote_count": 17661,
-        "genres": [
-          { "id": 12, "name": "Adventure" },
           { "id": 16, "name": "Animation" },
           { "id": 35, "name": "Comedy" },
           { "id": 10751, "name": "Family" }
@@ -1034,27 +933,6 @@
         "video": false,
         "vote_average": 0.0,
         "vote_count": 0,
-        "genres": [
-          { "id": 12, "name": "Adventure" },
-          { "id": 16, "name": "Animation" },
-          { "id": 35, "name": "Comedy" },
-          { "id": 10751, "name": "Family" }
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/aNG1BSIULxbHtUmBiar0i3fR1S4.jpg",
-        "id": 520758,
-        "original_language": "en",
-        "original_title": "Chicken Run: Dawn of the Nugget",
-        "overview": "A band of fearless chickens flock together to save poultry-kind from an unsettling new threat: a nearby farm that's cooking up something suspicious.",
-        "popularity": 93.726,
-        "poster_path": "/uR03YFvc7rZg8Yb1uOKekIS084A.jpg",
-        "release_date": "2023-12-08",
-        "title": "Chicken Run: Dawn of the Nugget",
-        "video": false,
-        "vote_average": 7.097,
-        "vote_count": 589,
         "genres": [
           { "id": 12, "name": "Adventure" },
           { "id": 16, "name": "Animation" },

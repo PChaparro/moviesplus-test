@@ -806,27 +806,6 @@
     [
       {
         "adult": false,
-        "backdrop_path": "/9caD0fGCrp96JTFFeGyI0CGNj7.jpg",
-        "id": 967,
-        "original_language": "en",
-        "original_title": "Spartacus",
-        "overview": "The rebellious Thracian Spartacus, born and raised a slave, is sold to Gladiator trainer Batiatus. After weeks of being trained to kill for the arena, Spartacus turns on his owners and leads the other slaves in rebellion. As the rebels move from town to town, their numbers swell as escaped slaves join their ranks. Under the leadership of Spartacus, they make their way to southern Italy, where they will cross the sea and return to their homes.",
-        "popularity": 48.357,
-        "poster_path": "/xLPpQlFWE12cbqNJQ5Vf4eJU8ij.jpg",
-        "release_date": "1960-10-13",
-        "title": "Spartacus",
-        "video": false,
-        "vote_average": 7.548,
-        "vote_count": 2023,
-        "genres": [
-          { "id": 12, "name": "Adventure" },
-          { "id": 18, "name": "Drama" },
-          { "id": 36, "name": "History" },
-          { "id": 10752, "name": "War" }
-        ]
-      },
-      {
-        "adult": false,
         "backdrop_path": "/mHpoCdCSebNDIIHbqaAxbD57o7H.jpg",
         "id": 823452,
         "original_language": "en",
@@ -1109,28 +1088,6 @@
           { "id": 80, "name": "Crime" },
           { "id": 18, "name": "Drama" },
           { "id": 36, "name": "History" }
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/kP8rK9dGS1pr0HrnmXfIi2heWjo.jpg",
-        "id": 1495,
-        "original_language": "en",
-        "original_title": "Kingdom of Heaven",
-        "overview": "After his wife dies, a blacksmith named Balian is thrust into royalty, political intrigue and bloody holy wars during the Crusades.",
-        "popularity": 47.79,
-        "poster_path": "/uk55nBEFIQFveIiy9jvLGiVtk4h.jpg",
-        "release_date": "2005-05-03",
-        "title": "Kingdom of Heaven",
-        "video": false,
-        "vote_average": 6.932,
-        "vote_count": 3973,
-        "genres": [
-          { "id": 28, "name": "Action" },
-          { "id": 12, "name": "Adventure" },
-          { "id": 18, "name": "Drama" },
-          { "id": 36, "name": "History" },
-          { "id": 10752, "name": "War" }
         ]
       },
       {

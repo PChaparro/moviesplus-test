@@ -856,26 +856,6 @@
       },
       {
         "adult": false,
-        "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
-        "id": 670292,
-        "original_language": "en",
-        "original_title": "The Creator",
-        "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
-        "popularity": 137.694,
-        "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
-        "release_date": "2023-09-27",
-        "title": "The Creator",
-        "video": false,
-        "vote_average": 7.098,
-        "vote_count": 2357,
-        "genres": [
-          { "id": 28, "name": "Action" },
-          { "id": 12, "name": "Adventure" },
-          { "id": 878, "name": "Science Fiction" }
-        ]
-      },
-      {
-        "adult": false,
         "backdrop_path": "/84HaEcFFQA7RDtAloHn2U8Vs4Wm.jpg",
         "id": 1168733,
         "original_language": "es",
@@ -891,25 +871,6 @@
         "genres": [
           { "id": 12, "name": "Adventure" },
           { "id": 35, "name": "Comedy" }
-        ]
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
-        "id": 671,
-        "original_language": "en",
-        "original_title": "Harry Potter and the Philosopher's Stone",
-        "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard\u2014with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths\u2014and about the villain who's to blame.",
-        "popularity": 133.822,
-        "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
-        "release_date": "2001-11-16",
-        "title": "Harry Potter and the Philosopher's Stone",
-        "video": false,
-        "vote_average": 7.915,
-        "vote_count": 26203,
-        "genres": [
-          { "id": 12, "name": "Adventure" },
-          { "id": 14, "name": "Fantasy" }
         ]
       },
       {
