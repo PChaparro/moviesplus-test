@@ -10,8 +10,11 @@ import { useState } from 'react';
 
 import navbarLinks from '@/data/navbar/links.json';
 
-import { Button, buttonVariantClassnames } from '@/components/button/button';
-import { MoviesPlusLogo } from '@/components/moviesPlusLogo/moviesPlusLogo';
+import {
+  Button,
+  buttonVariantClassnames,
+} from '@/components/shared/button/button';
+import { MoviesPlusLogo } from '@/components/shared/moviesPlusLogo/moviesPlusLogo';
 
 const { default: defaultLinks } = navbarLinks;
 

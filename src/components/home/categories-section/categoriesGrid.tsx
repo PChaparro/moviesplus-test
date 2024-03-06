@@ -1,6 +1,6 @@
 import { Category } from '@/types/definitions';
 
-import { CategoryCard } from '@/components/categoryCard/categoryCard';
+import { CategoryCard } from '@/components/shared/categoryCard/categoryCard';
 
 import { CategoriesGridSkeleton } from './categoriesGridSkeleton';
 

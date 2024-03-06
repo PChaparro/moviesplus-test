@@ -3,8 +3,8 @@ import clsx from 'clsx';
 
 import navbarLinks from '@/data/navbar/links.json';
 
-import { buttonVariantClassnames } from '@/components/button/button';
-import { MoviesPlusLogo } from '@/components/moviesPlusLogo/moviesPlusLogo';
+import { buttonVariantClassnames } from '@/components/shared/button/button';
+import { MoviesPlusLogo } from '@/components/shared/moviesPlusLogo/moviesPlusLogo';
 
 const { default: defaultLinks } = navbarLinks;
 
