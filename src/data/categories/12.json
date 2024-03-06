@@ -1,0 +1,1235 @@
+{
+  "id": 12,
+  "name": "Adventure",
+  "pages": [
+    [
+      {
+        "adult": false,
+        "backdrop_path": "/xOMo8BRK7PfcJv9JCnx7s5hj0PX.jpg",
+        "id": 693134,
+        "original_language": "en",
+        "original_title": "Dune: Part Two",
+        "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+        "popularity": 1525.769,
+        "poster_path": "/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg",
+        "release_date": "2024-02-27",
+        "title": "Dune: Part Two",
+        "video": false,
+        "vote_average": 8.5,
+        "vote_count": 891,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/meyhnvssZOPPjud4F1CjOb4snET.jpg",
+        "id": 940551,
+        "original_language": "en",
+        "original_title": "Migration",
+        "overview": "After a migrating duck family alights on their pond with thrilling tales of far-flung places, the Mallard family embarks on a family road trip, from New England, to New York City, to tropical Jamaica.",
+        "popularity": 933.504,
+        "poster_path": "/ldfCF9RhR40mppkzmftxapaHeTo.jpg",
+        "release_date": "2023-12-06",
+        "title": "Migration",
+        "video": false,
+        "vote_average": 7.6,
+        "vote_count": 856,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lzWHmYdfeFiMIY4JaMmtR7GEli3.jpg",
+        "id": 438631,
+        "original_language": "en",
+        "original_title": "Dune",
+        "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+        "popularity": 885.219,
+        "poster_path": "/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+        "release_date": "2021-09-15",
+        "title": "Dune",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 10497,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/mOQV573Tr0WxI2VVOLKwtfaRGZH.jpg",
+        "id": 949429,
+        "original_language": "th",
+        "original_title": "\u0e1c\u0e08\u0e0d\u0e20\u0e31\u0e22\u0e25\u0e48\u0e32\u0e02\u0e38\u0e21\u0e17\u0e23\u0e31\u0e1e\u0e22\u0e4c\u0e2b\u0e21\u0e37\u0e48\u0e19\u0e25\u0e35\u0e49",
+        "overview": "Joy, a secretary at a large multinational company, has an online shopping problem, likes to read adventure novels and watch travel and adventure shows. She daydreams about living a life of adventure.",
+        "popularity": 656.267,
+        "poster_path": "/z3SeS4wjKQ3TjHSvRidovGJbHYb.jpg",
+        "release_date": "2023-12-22",
+        "title": "The Adventures",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 9,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10749, "name": "Romance" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/feSiISwgEpVzR1v3zv2n2AU4ANJ.jpg",
+        "id": 609681,
+        "original_language": "en",
+        "original_title": "The Marvels",
+        "overview": "Carol Danvers, aka Captain Marvel, has reclaimed her identity from the tyrannical Kree and taken revenge on the Supreme Intelligence. But unintended consequences see Carol shouldering the burden of a destabilized universe. When her duties send her to an anomalous wormhole linked to a Kree revolutionary, her powers become entangled with that of Jersey City super-fan Kamala Khan, aka Ms. Marvel, and Carol\u2019s estranged niece, now S.A.B.E.R. astronaut Captain Monica Rambeau. Together, this unlikely trio must team up and learn to work in concert to save the universe.",
+        "popularity": 583.572,
+        "poster_path": "/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
+        "release_date": "2023-11-08",
+        "title": "The Marvels",
+        "video": false,
+        "vote_average": 6.241,
+        "vote_count": 1976,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/fCwwzOziFYs7YRwP4gbrb9qH1xg.jpg",
+        "id": 1011985,
+        "original_language": "en",
+        "original_title": "Kung Fu Panda 4",
+        "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+        "popularity": 520.928,
+        "poster_path": "/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
+        "release_date": "2024-03-02",
+        "title": "Kung Fu Panda 4",
+        "video": false,
+        "vote_average": 7.833,
+        "vote_count": 9,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/xStFwzqBWDRyUz3BldisuUY7kjW.jpg",
+        "id": 885303,
+        "original_language": "it",
+        "original_title": "I viaggiatori",
+        "overview": "Time jump to 1939 with teenager Max and his friends as they try to navigate Mussolini's Rome and find Max's missing brother.",
+        "popularity": 500.078,
+        "poster_path": "/38N7GRJLu7IWyEdil96YobJ5LWM.jpg",
+        "release_date": "2022-11-21",
+        "title": "The Voyagers",
+        "video": false,
+        "vote_average": 5.088,
+        "vote_count": 34,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" },
+          { "id": 10770, "name": "TV Movie" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ehumsuIBbgAe1hg343oszCLrAfI.jpg",
+        "id": 1022796,
+        "original_language": "en",
+        "original_title": "Wish",
+        "overview": "Asha, a sharp-witted idealist, makes a wish so powerful that it is answered by a cosmic force \u2013 a little ball of boundless energy called Star. Together, Asha and Star confront a most formidable foe - the ruler of Rosas, King Magnifico - to save her community and prove that when the will of one courageous human connects with the magic of the stars, wondrous things can happen.",
+        "popularity": 457.759,
+        "poster_path": "/AcoVfiv1rrWOmAdpnAMnM56ki19.jpg",
+        "release_date": "2023-11-13",
+        "title": "Wish",
+        "video": false,
+        "vote_average": 6.603,
+        "vote_count": 834,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 10751, "name": "Family" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/bckxSN9ueOgm0gJpVJmPQrecWul.jpg",
+        "id": 572802,
+        "original_language": "en",
+        "original_title": "Aquaman and the Lost Kingdom",
+        "overview": "Black Manta seeks revenge on Aquaman for his father's death. Wielding the Black Trident's power, he becomes a formidable foe. To defend Atlantis, Aquaman forges an alliance with his imprisoned brother. They must protect the kingdom.",
+        "popularity": 424.445,
+        "poster_path": "/7lTnXOy0iNtBAdRP3TZvaKJ77F6.jpg",
+        "release_date": "2023-12-20",
+        "title": "Aquaman and the Lost Kingdom",
+        "video": false,
+        "vote_average": 6.846,
+        "vote_count": 1945,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/arT10FrsPdxJOFBrHMrVvoDJCqR.jpg",
+        "id": 1078012,
+        "original_language": "zh",
+        "original_title": "\u718a\u51fa\u6ca1\u00b7\u4f34\u6211\u201c\u718a\u82af\u201d",
+        "overview": "Briar and Bramble, who lost their mother Barbara when they were cubs, are thrown into danger when escorting a scientist, which may lead them to a family reunion.",
+        "popularity": 350.908,
+        "poster_path": "/lIR8h3Os8peWOave8CGE7xsTFoi.jpg",
+        "release_date": "2023-01-22",
+        "title": "Boonie Bears: Guardian Code",
+        "video": false,
+        "vote_average": 7.0,
+        "vote_count": 4,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zUY1WawCBY8y6YBoiUCAmUorXfx.jpg",
+        "id": 528656,
+        "original_language": "zh",
+        "original_title": "\u6218\u795e\u7eaa",
+        "overview": "Tem\u00fcjin and B\u00f6rte are childhood lovers who are deeply in love; but news of Tem\u00fcjin's father's death swiftly disrupted their relationship. Tem\u00fcjin heads back to his hometown, but was faced with a sudden attack from his father's former comrades, causing his whole tribe to be destroyed.",
+        "popularity": 318.349,
+        "poster_path": "/FgFoX4wlZUT31ErGGzVnNlh8U3.jpg",
+        "release_date": "2018-04-28",
+        "title": "Genghis Khan",
+        "video": false,
+        "vote_average": 4.729,
+        "vote_count": 24,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/veIyxxi5Gs8gvztLEW1Ysb8rrzs.jpg",
+        "id": 823464,
+        "original_language": "en",
+        "original_title": "Godzilla x Kong: The New Empire",
+        "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence \u2013 and our own.",
+        "popularity": 302.997,
+        "poster_path": "/tMefBSflR6PGQLv7WvFPpKLZkyk.jpg",
+        "release_date": "2024-03-27",
+        "title": "Godzilla x Kong: The New Empire",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/midCh3iVxaG3dUOrP9TnUpNcGm.jpg",
+        "id": 508883,
+        "original_language": "ja",
+        "original_title": "\u541b\u305f\u3061\u306f\u3069\u3046\u751f\u304d\u308b\u304b",
+        "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother. As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
+        "popularity": 257.747,
+        "poster_path": "/jDQPkgzerGophKRRn7MKm071vCU.jpg",
+        "release_date": "2023-07-14",
+        "title": "The Boy and the Heron",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 1021,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+        "id": 502356,
+        "original_language": "en",
+        "original_title": "The Super Mario Bros. Movie",
+        "overview": "While working underground to fix a water main, Brooklyn plumbers\u2014and brothers\u2014Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
+        "popularity": 250.972,
+        "poster_path": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
+        "release_date": "2023-04-05",
+        "title": "The Super Mario Bros. Movie",
+        "video": false,
+        "vote_average": 7.691,
+        "vote_count": 8106,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ctMserH8g2SeOAnCw5gFjdQF8mo.jpg",
+        "id": 346698,
+        "original_language": "en",
+        "original_title": "Barbie",
+        "overview": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+        "popularity": 228.681,
+        "poster_path": "/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+        "release_date": "2023-07-19",
+        "title": "Barbie",
+        "video": false,
+        "vote_average": 7.104,
+        "vote_count": 7599,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 35, "name": "Comedy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/cAOaUTJzUG8vfXcThFNIC5tUMig.jpg",
+        "id": 841,
+        "original_language": "en",
+        "original_title": "Dune",
+        "overview": "In the year 10,191, the most precious substance in the universe is the spice Melange. The spice extends life. The spice expands consciousness. The spice is vital to space travel.  The spice exists on only one planet in the entire universe, the vast desert planet Arrakis, also known as Dune.  Its native inhabitants, the Fremen, have long held a prophecy that a man would come, a messiah who would lead them to true freedom.",
+        "popularity": 226.025,
+        "poster_path": "/4U8SybbIccwhTEZMs4KT7qefN7N.jpg",
+        "release_date": "1984-12-14",
+        "title": "Dune",
+        "video": false,
+        "vote_average": 6.2,
+        "vote_count": 2721,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
+        "id": 299054,
+        "original_language": "en",
+        "original_title": "Expend4bles",
+        "overview": "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world\u2019s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give \u201cnew blood\u201d a whole new meaning.",
+        "popularity": 211.062,
+        "poster_path": "/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
+        "release_date": "2023-09-15",
+        "title": "Expend4bles",
+        "video": false,
+        "vote_average": 6.358,
+        "vote_count": 1194,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 53, "name": "Thriller" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2vFuG6bWGyQUzYS9d69E5l85nIz.jpg",
+        "id": 667538,
+        "original_language": "en",
+        "original_title": "Transformers: Rise of the Beasts",
+        "overview": "When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.",
+        "popularity": 209.491,
+        "poster_path": "/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
+        "release_date": "2023-06-06",
+        "title": "Transformers: Rise of the Beasts",
+        "video": false,
+        "vote_average": 7.354,
+        "vote_count": 4099,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
+        "id": 76600,
+        "original_language": "en",
+        "original_title": "Avatar: The Way of Water",
+        "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+        "popularity": 201.531,
+        "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+        "release_date": "2022-12-14",
+        "title": "Avatar: The Way of Water",
+        "video": false,
+        "vote_average": 7.631,
+        "vote_count": 10961,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+        "id": 634649,
+        "original_language": "en",
+        "original_title": "Spider-Man: No Way Home",
+        "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+        "popularity": 201.05,
+        "poster_path": "/5weKu49pzJCt06OPpjvT80efnQj.jpg",
+        "release_date": "2021-12-15",
+        "title": "Spider-Man: No Way Home",
+        "video": false,
+        "vote_average": 7.975,
+        "vote_count": 19095,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      }
+    ],
+    [
+      {
+        "adult": false,
+        "backdrop_path": "/9xfDWXAUbFXQK585JvByT5pEAhe.jpg",
+        "id": 569094,
+        "original_language": "en",
+        "original_title": "Spider-Man: Across the Spider-Verse",
+        "overview": "After reuniting with Gwen Stacy, Brooklyn\u2019s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse\u2019s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+        "popularity": 191.283,
+        "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+        "release_date": "2023-05-31",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "video": false,
+        "vote_average": 8.38,
+        "vote_count": 5897,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+        "id": 299536,
+        "original_language": "en",
+        "original_title": "Avengers: Infinity War",
+        "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+        "popularity": 181.232,
+        "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+        "release_date": "2018-04-25",
+        "title": "Avengers: Infinity War",
+        "video": false,
+        "vote_average": 8.248,
+        "vote_count": 28569,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/acpFrSmVLnTNAIuHxnZArkC3dwU.jpg",
+        "id": 598387,
+        "original_language": "en",
+        "original_title": "The Tiger's Apprentice",
+        "overview": "After the death of his grandmother, Tom Lee discovers he is part of a long lineage of magical protectors known as the Guardians. With guidance from a mythical tiger named Hu and the other Zodiac animal warriors, Tom trains to take on an evil force that threatens humanity.",
+        "popularity": 180.745,
+        "poster_path": "/iiid1xMhoAcW83VJ9LdAqf4Vtbr.jpg",
+        "release_date": "2024-02-02",
+        "title": "The Tiger's Apprentice",
+        "video": false,
+        "vote_average": 7.322,
+        "vote_count": 90,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 10751, "name": "Family" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg",
+        "id": 383498,
+        "original_language": "en",
+        "original_title": "Deadpool 2",
+        "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+        "popularity": 174.187,
+        "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+        "release_date": "2018-05-10",
+        "title": "Deadpool 2",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 16816,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 35, "name": "Comedy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/pA4sNvcohTNPx3AhEEeIu8gSt7h.jpg",
+        "id": 976573,
+        "original_language": "en",
+        "original_title": "Elemental",
+        "overview": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.",
+        "popularity": 173.633,
+        "poster_path": "/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg",
+        "release_date": "2023-06-14",
+        "title": "Elemental",
+        "video": false,
+        "vote_average": 7.668,
+        "vote_count": 3760,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" },
+          { "id": 14, "name": "Fantasy" },
+          { "id": 10749, "name": "Romance" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/en971MEXui9diirXlogOrPKmsEn.jpg",
+        "id": 293660,
+        "original_language": "en",
+        "original_title": "Deadpool",
+        "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+        "popularity": 164.859,
+        "poster_path": "/fSRb7vyIP8rQpL0I47P3qUsEKX3.jpg",
+        "release_date": "2016-02-09",
+        "title": "Deadpool",
+        "video": false,
+        "vote_average": 7.609,
+        "vote_count": 29551,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 35, "name": "Comedy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/d1RHScaZc7I8j0lDke1c4AxI435.jpg",
+        "id": 9502,
+        "original_language": "en",
+        "original_title": "Kung Fu Panda",
+        "overview": "When the Valley of Peace is threatened, lazy Po the panda discovers his destiny as the \"chosen one\" and trains to become a kung fu hero, but transforming the unsleek slacker into a brave warrior won't be easy. It's up to Master Shifu and the Furious Five -- Tigress, Crane, Mantis, Viper and Monkey -- to give it a try.",
+        "popularity": 158.182,
+        "poster_path": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+        "release_date": "2008-06-04",
+        "title": "Kung Fu Panda",
+        "video": false,
+        "vote_average": 7.264,
+        "vote_count": 10898,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
+        "id": 447365,
+        "original_language": "en",
+        "original_title": "Guardians of the Galaxy Vol. 3",
+        "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+        "popularity": 154.926,
+        "poster_path": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+        "release_date": "2023-05-03",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "video": false,
+        "vote_average": 8.0,
+        "vote_count": 6007,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yF1eOkaYvwiORauRCPWznV9xVvi.jpg",
+        "id": 298618,
+        "original_language": "en",
+        "original_title": "The Flash",
+        "overview": "When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?",
+        "popularity": 154.512,
+        "poster_path": "/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg",
+        "release_date": "2023-06-13",
+        "title": "The Flash",
+        "video": false,
+        "vote_average": 6.783,
+        "vote_count": 3665,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/faXT8V80JRhnArTAeYXz0Eutpv9.jpg",
+        "id": 315162,
+        "original_language": "en",
+        "original_title": "Puss in Boots: The Last Wish",
+        "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+        "popularity": 153.178,
+        "poster_path": "/kuf6dutpsT0vSVehic3EZIqkOBt.jpg",
+        "release_date": "2022-12-07",
+        "title": "Puss in Boots: The Last Wish",
+        "video": false,
+        "vote_average": 8.247,
+        "vote_count": 7056,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qjGrUmKW78MCFG8PTLDBp67S27p.jpg",
+        "id": 635302,
+        "original_language": "ja",
+        "original_title": "\u5287\u5834\u7248\u300c\u9b3c\u6ec5\u306e\u5203\u300d\u7121\u9650\u5217\u8eca\u7de8",
+        "overview": "Tanjiro Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyojuro Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+        "popularity": 146.705,
+        "poster_path": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
+        "release_date": "2020-10-16",
+        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "video": false,
+        "vote_average": 8.232,
+        "vote_count": 3623,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 14, "name": "Fantasy" },
+          { "id": 53, "name": "Thriller" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/uT5G4fA7jKxlJNfwYPMm353f5AI.jpg",
+        "id": 140300,
+        "original_language": "en",
+        "original_title": "Kung Fu Panda 3",
+        "overview": "While Po and his father are visiting a secret panda village, an evil spirit threatens all of China, forcing Po to form a ragtag army to fight back.",
+        "popularity": 144.734,
+        "poster_path": "/oajNi4Su39WAByHI6EONu8G8HYn.jpg",
+        "release_date": "2016-01-23",
+        "title": "Kung Fu Panda 3",
+        "video": false,
+        "vote_average": 6.888,
+        "vote_count": 5563,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/xFYpUmB01nswPgbzi8EOCT1ZYFu.jpg",
+        "id": 980489,
+        "original_language": "en",
+        "original_title": "Gran Turismo",
+        "overview": "The ultimate wish-fulfillment tale of a teenage Gran Turismo player whose gaming skills won him a series of Nissan competitions to become an actual professional racecar driver.",
+        "popularity": 143.569,
+        "poster_path": "/51tqzRtKMMZEYUpSYkrUE7v9ehm.jpg",
+        "release_date": "2023-08-09",
+        "title": "Gran Turismo",
+        "video": false,
+        "vote_average": 7.894,
+        "vote_count": 2091,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+        "id": 299534,
+        "original_language": "en",
+        "original_title": "Avengers: Endgame",
+        "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+        "popularity": 141.897,
+        "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+        "release_date": "2019-04-24",
+        "title": "Avengers: Endgame",
+        "video": false,
+        "vote_average": 8.257,
+        "vote_count": 24567,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ln2Gre4IYRhpjuGVybbtaF4CLo5.jpg",
+        "id": 157336,
+        "original_language": "en",
+        "original_title": "Interstellar",
+        "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+        "popularity": 139.727,
+        "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+        "release_date": "2014-11-05",
+        "title": "Interstellar",
+        "video": false,
+        "vote_average": 8.429,
+        "vote_count": 33790,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "id": 670292,
+        "original_language": "en",
+        "original_title": "The Creator",
+        "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
+        "popularity": 137.694,
+        "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+        "release_date": "2023-09-27",
+        "title": "The Creator",
+        "video": false,
+        "vote_average": 7.098,
+        "vote_count": 2358,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
+        "id": 671,
+        "original_language": "en",
+        "original_title": "Harry Potter and the Philosopher's Stone",
+        "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard\u2014with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths\u2014and about the villain who's to blame.",
+        "popularity": 133.822,
+        "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+        "release_date": "2001-11-16",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "video": false,
+        "vote_average": 7.915,
+        "vote_count": 26203,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/xzdOIL7261CWehsHOk3lnP0xqam.jpg",
+        "id": 565770,
+        "original_language": "en",
+        "original_title": "Blue Beetle",
+        "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.",
+        "popularity": 133.038,
+        "poster_path": "/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg",
+        "release_date": "2023-08-16",
+        "title": "Blue Beetle",
+        "video": false,
+        "vote_average": 6.839,
+        "vote_count": 2239,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/upDUDOlpGBPGwV6A4vs0y2Whzg0.jpg",
+        "id": 1230393,
+        "original_language": "ja",
+        "original_title": "MONSTERS \u4e00\u767e\u4e09\u60c5\u98db\u9f8d\u4f8d\u6975",
+        "overview": "A samurai's path leads him to a young waitress whose hometown was destroyed by a dragon. He doesn't want any trouble \u2014 but it finds them anyway.",
+        "popularity": 133.036,
+        "poster_path": "/yG8QKnaiz7JoIMh3oxdm0JJN6IG.jpg",
+        "release_date": "2024-01-21",
+        "title": "Monsters 103 Mercies Dragon Damnation",
+        "video": false,
+        "vote_average": 6.66,
+        "vote_count": 75,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/s2tL1BZxanAf5JKggQJtKlPuS5k.jpg",
+        "id": 129213,
+        "original_language": "ja",
+        "original_title": "\u30b4\u30fc\u30b9\u30c8\u30b9\u30a4\u30fc\u30d1\u30fc\u7f8e\u795e \u6975\u697d\u5927\u4f5c\u6226\uff01\uff01",
+        "overview": "Meet Mikami - the SEXY leader of one of Japan's most successful independent ghost-busting agencies. Together with her eclectic team of exorcists, she's prepared to do battle with any supernatural adversary - but only for the right price!  When an ancient spirit enlists her aid to deal with a re-incarnated foe, Mikami gets more than she bargained for. As the wicked Nosferatu - a vampire lord able to absorb the very life essence of his victims - begins to turn the city's inhabitants into mindless zombies, Mikami's team must race against time to save Tokyo from destruction.  Watch The Ultimate Vampire Slayer in this fast, fun and furious supernatural action-adventure!",
+        "popularity": 132.695,
+        "poster_path": "/ratYneTrbgbtvkPXs3cNp98fChQ.jpg",
+        "release_date": "1994-12-04",
+        "title": "Ghost Sweeper Mikami",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 5,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 14, "name": "Fantasy" },
+          { "id": 27, "name": "Horror" }
+        ]
+      }
+    ],
+    [
+      {
+        "adult": false,
+        "backdrop_path": "/j29ekbcLpBvxnGk6LjdTc2EI5SA.jpg",
+        "id": 150540,
+        "original_language": "en",
+        "original_title": "Inside Out",
+        "overview": "From an adventurous balloon ride above the clouds to a monster-filled metropolis, Academy Award\u00ae-winning director Pete Docter (\u201cMonsters, Inc.,\u201d \u201cUp\u201d) has taken audiences to unique and imaginative places. In Disney and Pixar\u2019s original movie \u201c Inside Out,\u201d he will take us to the most extraordinary location of all\u2014inside the mind.",
+        "popularity": 114.008,
+        "poster_path": "/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg",
+        "release_date": "2015-06-09",
+        "title": "Inside Out",
+        "video": false,
+        "vote_average": 7.917,
+        "vote_count": 20075,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 18, "name": "Drama" },
+          { "id": 10751, "name": "Family" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "id": 670292,
+        "original_language": "en",
+        "original_title": "The Creator",
+        "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war\u2014and mankind itself.",
+        "popularity": 137.694,
+        "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+        "release_date": "2023-09-27",
+        "title": "The Creator",
+        "video": false,
+        "vote_average": 7.098,
+        "vote_count": 2357,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/84HaEcFFQA7RDtAloHn2U8Vs4Wm.jpg",
+        "id": 1168733,
+        "original_language": "es",
+        "original_title": "Isla bonita",
+        "overview": "Three friends travel towards Iquitos in search of fun and will decide if it's time to put an end to the routine life they have.",
+        "popularity": 105.064,
+        "poster_path": "/lraOowe1AQQof3Hr0hNBgbeLwh9.jpg",
+        "release_date": "2023-11-30",
+        "title": "Isla bonita",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 3,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 35, "name": "Comedy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
+        "id": 671,
+        "original_language": "en",
+        "original_title": "Harry Potter and the Philosopher's Stone",
+        "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard\u2014with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths\u2014and about the villain who's to blame.",
+        "popularity": 133.822,
+        "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+        "release_date": "2001-11-16",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "video": false,
+        "vote_average": 7.915,
+        "vote_count": 26203,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/bVmSXNgH1gpHYTDyF9Q826YwJT5.jpg",
+        "id": 122917,
+        "original_language": "en",
+        "original_title": "The Hobbit: The Battle of the Five Armies",
+        "overview": "Immediately after the events of The Desolation of Smaug, Bilbo and the dwarves try to defend Erebor's mountain of treasure from others who claim it: the men of the ruined Laketown and the elves of Mirkwood. Meanwhile an army of Orcs led by Azog the Defiler is marching on Erebor, fueled by the rise of the dark lord Sauron. Dwarves, elves and men must unite, and the hope for Middle-Earth falls into Bilbo's hands.",
+        "popularity": 121.145,
+        "poster_path": "/xT98tLqatZPQApyRmlPL12LtiWp.jpg",
+        "release_date": "2014-12-10",
+        "title": "The Hobbit: The Battle of the Five Armies",
+        "video": false,
+        "vote_average": 7.314,
+        "vote_count": 13665,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg",
+        "id": 505642,
+        "original_language": "en",
+        "original_title": "Black Panther: Wakanda Forever",
+        "overview": "Queen Ramonda, Shuri, M\u2019Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T\u2019Challa\u2019s death.  As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+        "popularity": 123.79,
+        "poster_path": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+        "release_date": "2022-11-09",
+        "title": "Black Panther: Wakanda Forever",
+        "video": false,
+        "vote_average": 7.143,
+        "vote_count": 5977,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9eAn20y26wtB3aet7w9lHjuSgZ3.jpg",
+        "id": 507086,
+        "original_language": "en",
+        "original_title": "Jurassic World Dominion",
+        "overview": "Four years after Isla Nublar was destroyed, dinosaurs now live\u2014and hunt\u2014alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators ona planet they now share with history's most fearsome creatures.",
+        "popularity": 126.204,
+        "poster_path": "/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+        "release_date": "2022-06-01",
+        "title": "Jurassic World Dominion",
+        "video": false,
+        "vote_average": 6.7,
+        "vote_count": 5620,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 878, "name": "Science Fiction" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/jks6QgJjsaDC5iT6bxLsSS0eo6L.jpg",
+        "id": 293167,
+        "original_language": "en",
+        "original_title": "Kong: Skull Island",
+        "overview": "Explore the mysterious and dangerous home of the king of the apes as a team of explorers ventures deep inside the treacherous, primordial island.",
+        "popularity": 123.819,
+        "poster_path": "/r2517Vz9EhDhj88qwbDVj8DCRZN.jpg",
+        "release_date": "2017-03-08",
+        "title": "Kong: Skull Island",
+        "video": false,
+        "vote_average": 6.526,
+        "vote_count": 9986,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/x2RS3uTcsJJ9IfjNPcgDmukoEcQ.jpg",
+        "id": 120,
+        "original_language": "en",
+        "original_title": "The Lord of the Rings: The Fellowship of the Ring",
+        "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+        "popularity": 125.052,
+        "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "release_date": "2001-12-18",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "video": false,
+        "vote_average": 8.409,
+        "vote_count": 24052,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/wW7Wt5bXzPy4VOEE4LTIUDyDgBo.jpg",
+        "id": 22,
+        "original_language": "en",
+        "original_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "overview": "Jack Sparrow, a freewheeling 18th-century pirate, quarrels with a rival pirate bent on pillaging Port Royal. When the governor's daughter is kidnapped, Sparrow decides to help the girl's love save her.",
+        "popularity": 124.747,
+        "poster_path": "/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+        "release_date": "2003-07-09",
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "video": false,
+        "vote_average": 7.798,
+        "vote_count": 19764,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/wQ0r0JRs7elHSKg1SFtdWdKTYKi.jpg",
+        "id": 1865,
+        "original_language": "en",
+        "original_title": "Pirates of the Caribbean: On Stranger Tides",
+        "overview": "Captain Jack Sparrow crosses paths with a woman from his past, and he's not sure if it's love -- or if she's a ruthless con artist who's using him to find the fabled Fountain of Youth. When she forces him aboard the Queen Anne's Revenge, the ship of the formidable pirate Blackbeard, Jack finds himself on an unexpected adventure in which he doesn't know who to fear more: Blackbeard or the woman from his past.",
+        "popularity": 124.135,
+        "poster_path": "/keGfSvCmYj7CvdRx36OdVrAEibE.jpg",
+        "release_date": "2011-05-15",
+        "title": "Pirates of the Caribbean: On Stranger Tides",
+        "video": false,
+        "vote_average": 6.545,
+        "vote_count": 13458,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/35z8hWuzfFUZQaYog8E9LsXW3iI.jpg",
+        "id": 335977,
+        "original_language": "en",
+        "original_title": "Indiana Jones and the Dial of Destiny",
+        "overview": "Finding himself in a new era, and approaching retirement, Indy wrestles with fitting into a world that seems to have outgrown him. But as the tentacles of an all-too-familiar evil return in the form of an old rival, Indy must don his hat and pick up his whip once more to make sure an ancient and powerful artifact doesn't fall into the wrong hands.",
+        "popularity": 102.018,
+        "poster_path": "/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",
+        "release_date": "2023-06-28",
+        "title": "Indiana Jones and the Dial of Destiny",
+        "video": false,
+        "vote_average": 6.6,
+        "vote_count": 2868,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/1stUIsjawROZxjiCMtqqXqgfZWC.jpg",
+        "id": 672,
+        "original_language": "en",
+        "original_title": "Harry Potter and the Chamber of Secrets",
+        "overview": "Cars fly, trees fight back, and a mysterious house-elf comes to warn Harry Potter at the start of his second year at Hogwarts. Adventure and danger await when bloody writing on a wall announces: The Chamber Of Secrets Has Been Opened. To save Hogwarts will require all of Harry, Ron and Hermione\u2019s magical abilities and courage.",
+        "popularity": 120.017,
+        "poster_path": "/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg",
+        "release_date": "2002-11-13",
+        "title": "Harry Potter and the Chamber of Secrets",
+        "video": false,
+        "vote_average": 7.72,
+        "vote_count": 21042,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/vv5a8u6e40kyH0Hp6HuamAgzRai.jpg",
+        "id": 58,
+        "original_language": "en",
+        "original_title": "Pirates of the Caribbean: Dead Man's Chest",
+        "overview": "Captain Jack Sparrow works his way out of a blood debt with the ghostly Davy Jones to avoid eternal damnation.",
+        "popularity": 118.629,
+        "poster_path": "/uXEqmloGyP7UXAiphJUu2v2pcuE.jpg",
+        "release_date": "2006-07-06",
+        "title": "Pirates of the Caribbean: Dead Man's Chest",
+        "video": false,
+        "vote_average": 7.353,
+        "vote_count": 15257,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/l45UqyARB3WxpYNuACjMjndpe85.jpg",
+        "id": 809,
+        "original_language": "en",
+        "original_title": "Shrek 2",
+        "overview": "Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.",
+        "popularity": 117.428,
+        "poster_path": "/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+        "release_date": "2004-05-19",
+        "title": "Shrek 2",
+        "video": false,
+        "vote_average": 7.262,
+        "vote_count": 11709,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 16, "name": "Animation" },
+          { "id": 35, "name": "Comedy" },
+          { "id": 10751, "name": "Family" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/urDWNffjwmNi5IQaezw9GwqkUXa.jpg",
+        "id": 767,
+        "original_language": "en",
+        "original_title": "Harry Potter and the Half-Blood Prince",
+        "overview": "As Lord Voldemort tightens his grip on both the Muggle and wizarding worlds, Hogwarts is no longer a safe haven. Harry suspects perils may even lie within the castle, but Dumbledore is more intent upon preparing him for the final battle fast approaching. Together they work to find the key to unlock Voldemorts defenses and to this end, Dumbledore recruits his old friend and colleague Horace Slughorn, whom he believes holds crucial information. Even as the decisive showdown looms, romance blossoms for Harry, Ron, Hermione and their classmates. Love is in the air, but danger lies ahead and Hogwarts may never be the same again.",
+        "popularity": 117.317,
+        "poster_path": "/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
+        "release_date": "2009-07-15",
+        "title": "Harry Potter and the Half-Blood Prince",
+        "video": false,
+        "vote_average": 7.694,
+        "vote_count": 18641,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/kPcHuPYqzkSo4bmPHtH82GaeEgX.jpg",
+        "id": 285,
+        "original_language": "en",
+        "original_title": "Pirates of the Caribbean: At World's End",
+        "overview": "Captain Barbossa, long believed to be dead, has come back to life and is headed to the edge of the Earth with Will Turner and Elizabeth Swann. But nothing is quite as it seems.",
+        "popularity": 116.759,
+        "poster_path": "/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg",
+        "release_date": "2007-05-19",
+        "title": "Pirates of the Caribbean: At World's End",
+        "video": false,
+        "vote_average": 7.251,
+        "vote_count": 13711,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9QusGjxcYvfPD1THg6oW3RLeNn7.jpg",
+        "id": 297802,
+        "original_language": "en",
+        "original_title": "Aquaman",
+        "overview": "Half-human, half-Atlantean Arthur Curry is taken on the journey of his lifetime to discover if he is worth of being a king.",
+        "popularity": 106.451,
+        "poster_path": "/zdw7Wf97vsQ0YnGomxDqfcEdUjX.jpg",
+        "release_date": "2018-12-07",
+        "title": "Aquaman",
+        "video": false,
+        "vote_average": 6.9,
+        "vote_count": 13512,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5rrGVmRUuCKVbqUu41XIWTXJmNA.jpg",
+        "id": 674,
+        "original_language": "en",
+        "original_title": "Harry Potter and the Goblet of Fire",
+        "overview": "When Harry Potter's name emerges from the Goblet of Fire, he becomes a competitor in a grueling battle for glory among three wizarding schools\u2014the Triwizard Tournament. But since Harry never submitted his name for the Tournament, who did? Now Harry must confront a deadly dragon, fierce water demons and an enchanted maze only to find himself in the cruel grasp of He Who Must Not Be Named.",
+        "popularity": 115.338,
+        "poster_path": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
+        "release_date": "2005-11-16",
+        "title": "Harry Potter and the Goblet of Fire",
+        "video": false,
+        "vote_average": 7.812,
+        "vote_count": 19877,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/sahEoCriObjyEVeSwO7pB4M4rmC.jpg",
+        "id": 610411,
+        "original_language": "et",
+        "original_title": "Erik Kivis\u00fcda",
+        "overview": "Erik is convinced he has a stone for a heart. That\u2019s why he doesn\u2019t mind that his parents have no time for him, or that he is bullied at school, or that he has no real friends. When his family moves to a villa they inherited, he is confronted by Maria whom Erik's parents want to kick out along with her father. Maria refuses to move and promises to make Erik's life a living hell. As a last attempt to defeat Erik, Maria goes to look for her mother who disappeared two years ago. Together they end up on a fantastical journey to the In-Between-World and Erik learns how hard it really is to wear a heart of stone.",
+        "popularity": 99.205,
+        "poster_path": "/38Sq6aBAwx3hmUAuuyqZu8AjH3Y.jpg",
+        "release_date": "2022-12-05",
+        "title": "Erik Stoneheart",
+        "video": false,
+        "vote_average": 4.75,
+        "vote_count": 2,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 10751, "name": "Family" },
+          { "id": 14, "name": "Fantasy" }
+        ]
+      }
+    ]
+  ]
+}

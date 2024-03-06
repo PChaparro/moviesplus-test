@@ -1,0 +1,1216 @@
+{
+  "id": 36,
+  "name": "History",
+  "pages": [
+    [
+      {
+        "adult": false,
+        "backdrop_path": "/8ohejkcQkNgkJgLn71Ws6Kd35g0.jpg",
+        "id": 872585,
+        "original_language": "en",
+        "original_title": "Oppenheimer",
+        "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+        "popularity": 331.455,
+        "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "release_date": "2023-07-19",
+        "title": "Oppenheimer",
+        "video": false,
+        "vote_average": 8.113,
+        "vote_count": 6950,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/f1AQhx6ZfGhPZFTVKgxG91PhEYc.jpg",
+        "id": 753342,
+        "original_language": "en",
+        "original_title": "Napoleon",
+        "overview": "An epic that details the checkered rise and fall of French Emperor Napoleon Bonaparte and his relentless journey to power through the prism of his addictive, volatile relationship with his wife, Josephine.",
+        "popularity": 268.348,
+        "poster_path": "/vcZWJGvB5xydWuUO1vaTLI82tGi.jpg",
+        "release_date": "2023-11-22",
+        "title": "Napoleon",
+        "video": false,
+        "vote_average": 6.5,
+        "vote_count": 1788,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8b1oWeOQLSwQH6TK3T0b1oNl3Al.jpg",
+        "id": 676727,
+        "original_language": "en",
+        "original_title": "The Inventor",
+        "overview": "The insatiably curious and headstrong inventor Leonardo da Vinci leaves Italy to join the French court, where he can experiment freely, inventing flying contraptions, incredible machines, and study the human body. There, joined in his adventure by the audacious princess Marguerite, Leonardo will uncover the answer to the ultimate question \u2013 \"What is the meaning of it all?\"",
+        "popularity": 219.46,
+        "poster_path": "/7Rpo5S3GjORu3yjah0o9eLcllSj.jpg",
+        "release_date": "2023-09-15",
+        "title": "The Inventor",
+        "video": false,
+        "vote_average": 5.778,
+        "vote_count": 9,
+        "genres": [
+          { "id": 16, "name": "Animation" },
+          { "id": 18, "name": "Drama" },
+          { "id": 10751, "name": "Family" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/acvE3RWjDLgvbL2RtcyzkrsAyNV.jpg",
+        "id": 466420,
+        "original_language": "en",
+        "original_title": "Killers of the Flower Moon",
+        "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one\u2014until the FBI steps in to unravel the mystery.",
+        "popularity": 183.511,
+        "poster_path": "/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+        "release_date": "2023-10-18",
+        "title": "Killers of the Flower Moon",
+        "video": false,
+        "vote_average": 7.505,
+        "vote_count": 2523,
+        "genres": [
+          { "id": 80, "name": "Crime" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/bq9FpkTw9I3s1cSRuZxQibM2xOx.jpg",
+        "id": 467244,
+        "original_language": "en",
+        "original_title": "The Zone of Interest",
+        "overview": "The commandant of Auschwitz, Rudolf H\u00f6ss, and his wife Hedwig, strive to build a dream life for their family in a house and garden next to the camp.",
+        "popularity": 163.474,
+        "poster_path": "/hUu9zyZmDd8VZegKi1iK1Vk0RYS.jpg",
+        "release_date": "2023-12-15",
+        "title": "The Zone of Interest",
+        "video": false,
+        "vote_average": 7.322,
+        "vote_count": 632,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7grv5ULlK9wMr2T1fkgr56HlbT.jpg",
+        "id": 760774,
+        "original_language": "en",
+        "original_title": "One Life",
+        "overview": "British stockbroker Nicholas Winton visits Czechoslovakia in the 1930s and forms plans to assist in the rescue of Jewish children before the onset of World War II, in an operation that came to be known as the Kindertransport.",
+        "popularity": 158.364,
+        "poster_path": "/yvnIWt2j8VnDgwKJE2VMiFMa2Qo.jpg",
+        "release_date": "2023-09-09",
+        "title": "One Life",
+        "video": false,
+        "vote_average": 7.682,
+        "vote_count": 165,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/vdpE5pjJVql5aD6pnzRqlFmgxXf.jpg",
+        "id": 906126,
+        "original_language": "es",
+        "original_title": "La sociedad de la nieve",
+        "overview": "On October 13, 1972, Uruguayan Air Force Flight 571, chartered to take a rugby team to Chile, crashes into a glacier in the heart of the Andes.",
+        "popularity": 155.522,
+        "poster_path": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
+        "release_date": "2023-12-13",
+        "title": "Society of the Snow",
+        "video": false,
+        "vote_average": 8.1,
+        "vote_count": 2175,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/yQIBS8B9l2qXoPoPtxSXvH7CfoT.jpg",
+        "id": 324786,
+        "original_language": "en",
+        "original_title": "Hacksaw Ridge",
+        "overview": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
+        "popularity": 105.781,
+        "poster_path": "/wuz8TjCIWR2EVVMuEfBnQ1vuGS3.jpg",
+        "release_date": "2016-10-07",
+        "title": "Hacksaw Ridge",
+        "video": false,
+        "vote_average": 8.192,
+        "vote_count": 13101,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/awWppR6CmJ6gqM6UjMz5DJ4zZaP.jpg",
+        "id": 960481,
+        "original_language": "mn",
+        "original_title": "\u0425\u043e\u0442\u0443\u043b\u0443\u043d \u0433\u04af\u043d\u0436: \u0410\u043b\u0442\u0430\u043d \u0441\u0443\u0434\u0440\u044b\u043d \u044d\u0440\u044d\u043b\u0434",
+        "overview": "Princess Khotulun is the daughter of Haidu Khan of the Ugudei dynasty. The film tells the story of Princess Khotulun, the son of Kublai Khan, known in Western and Eastern history as a wrestling princess, and her struggle to reclaim her Golden Sutra.",
+        "popularity": 89.659,
+        "poster_path": "/cXKbKnF8hCt7WlstcYmgF4Klmad.jpg",
+        "release_date": "2021-12-03",
+        "title": "The Warrior Princess",
+        "video": false,
+        "vote_average": 7.19,
+        "vote_count": 58,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/du11oPPbEoDnUpiREO5tUg47rJd.jpg",
+        "id": 365620,
+        "original_language": "en",
+        "original_title": "Ferrari",
+        "overview": "Set during the summer of 1957. Ex-racecar driver, Enzo Ferrari, is in crisis. Bankruptcy stalks the company he and his wife, Laura, built from nothing ten years earlier. Their tempestuous marriage struggles with the mourning for one son and the acknowledgement of another.",
+        "popularity": 88.77,
+        "poster_path": "/xBFyJHvXCTgf9Vmq5uCnXRHrMQ4.jpg",
+        "release_date": "2023-12-14",
+        "title": "Ferrari",
+        "video": false,
+        "vote_average": 6.631,
+        "vote_count": 390,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4l65BWqJBl7hBwdIwp2nQdwsOuw.jpg",
+        "id": 850165,
+        "original_language": "en",
+        "original_title": "The Iron Claw",
+        "overview": "The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s. Through tragedy and triumph, under the shadow of their domineering father and coach, the brothers seek larger-than-life immortality on the biggest stage in sports.",
+        "popularity": 88.377,
+        "poster_path": "/nfs7DCYhgrEIgxKYbITHTzKsggf.jpg",
+        "release_date": "2023-12-21",
+        "title": "The Iron Claw",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 315,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ydmZIafp66mHABs3QJDwvjRgZfE.jpg",
+        "id": 359724,
+        "original_language": "en",
+        "original_title": "Ford v Ferrari",
+        "overview": "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.",
+        "popularity": 66.654,
+        "poster_path": "/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg",
+        "release_date": "2019-11-13",
+        "title": "Ford v Ferrari",
+        "video": false,
+        "vote_average": 8.001,
+        "vote_count": 7333,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/jFp5aAlGQ1H3gwdORL2urr8dnoN.jpg",
+        "id": 205596,
+        "original_language": "en",
+        "original_title": "The Imitation Game",
+        "overview": "Based on the real life story of legendary cryptanalyst Alan Turing, the film portrays the nail-biting race against time by Turing and his brilliant team of code-breakers at Britain's top-secret Government Code and Cypher School at Bletchley Park, during the darkest days of World War II.",
+        "popularity": 66.342,
+        "poster_path": "/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg",
+        "release_date": "2014-11-14",
+        "title": "The Imitation Game",
+        "video": false,
+        "vote_average": 8.005,
+        "vote_count": 16376,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 53, "name": "Thriller" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/bdD39MpSVhKjxarTxLSfX6baoMP.jpg",
+        "id": 857,
+        "original_language": "en",
+        "original_title": "Saving Private Ryan",
+        "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+        "popularity": 66.241,
+        "poster_path": "/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+        "release_date": "1998-07-24",
+        "title": "Saving Private Ryan",
+        "video": false,
+        "vote_average": 8.213,
+        "vote_count": 15100,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zb6fM1CX41D9rF9hdgclu0peUmy.jpg",
+        "id": 424,
+        "original_language": "en",
+        "original_title": "Schindler's List",
+        "overview": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+        "popularity": 61.905,
+        "poster_path": "/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+        "release_date": "1993-12-15",
+        "title": "Schindler's List",
+        "video": false,
+        "vote_average": 8.565,
+        "vote_count": 15187,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7jaNOECZG8uS1tlq69HsY5xY8P9.jpg",
+        "id": 855,
+        "original_language": "en",
+        "original_title": "Black Hawk Down",
+        "overview": "When U.S. Rangers and an elite Delta Force team attempt to kidnap two underlings of a Somali warlord, their Black Hawk helicopters are shot down, and the Americans suffer heavy casualties, facing intense fighting from the militia on the ground.",
+        "popularity": 61.258,
+        "poster_path": "/o9o5bhPVsTUg764nJomiwchxUTs.jpg",
+        "release_date": "2001-12-28",
+        "title": "Black Hawk Down",
+        "video": false,
+        "vote_average": 7.373,
+        "vote_count": 5408,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2X7BAu7x2oMB3cTMF38uJhGSqoB.jpg",
+        "id": 606870,
+        "original_language": "en",
+        "original_title": "The Survivor",
+        "overview": "Harry Haft is a boxer who fought fellow prisoners in the concentration camps to survive. Haunted by the memories and his guilt, he attempts to use high-profile fights against boxing legends like Rocky Marciano as a way to find his first love again.",
+        "popularity": 60.667,
+        "poster_path": "/oZWJ20tGWZ5xO9CrTCVavmDRy7J.jpg",
+        "release_date": "2022-04-07",
+        "title": "The Survivor",
+        "video": false,
+        "vote_average": 7.072,
+        "vote_count": 139,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8YURPHUqD2ODIffxPf8sG5l5UC7.jpg",
+        "id": 652,
+        "original_language": "en",
+        "original_title": "Troy",
+        "overview": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
+        "popularity": 60.366,
+        "poster_path": "/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
+        "release_date": "2004-05-13",
+        "title": "Troy",
+        "video": false,
+        "vote_average": 7.157,
+        "vote_count": 9676,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/puUUsAri2UchyJgsbkpO3HZfKiw.jpg",
+        "id": 862557,
+        "original_language": "en",
+        "original_title": "The Hill",
+        "overview": "The story of Rickey Hill, who overcomes his physical disability and repairs his relationship with his father in a quest to become a major league baseball (MLB) player.",
+        "popularity": 59.649,
+        "poster_path": "/gKh28PVUqt1vY2oAdFlauXkDacW.jpg",
+        "release_date": "2023-08-18",
+        "title": "The Hill",
+        "video": false,
+        "vote_average": 7.707,
+        "vote_count": 133,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/xTsERrOCW15OIYl5aPX7Jbj38wu.jpg",
+        "id": 724495,
+        "original_language": "en",
+        "original_title": "The Woman King",
+        "overview": "The story of the Agojie, the all-female unit of warriors who protected the African Kingdom of Dahomey in the 1800s with skills and a fierceness unlike anything the world has ever seen, and General Nanisca as she trains the next generation of recruits and readies them for battle against an enemy determined to destroy their way of life.",
+        "popularity": 59.075,
+        "poster_path": "/438QXt1E3WJWb3PqNniK0tAE5c1.jpg",
+        "release_date": "2022-09-16",
+        "title": "The Woman King",
+        "video": false,
+        "vote_average": 7.694,
+        "vote_count": 1877,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      }
+    ],
+    [
+      {
+        "adult": false,
+        "backdrop_path": "/ayDMYGUNVvXS76wQgFwTiUIDNb5.jpg",
+        "id": 300671,
+        "original_language": "en",
+        "original_title": "13 Hours: The Secret Soldiers of Benghazi",
+        "overview": "An American Ambassador is killed during an attack at a U.S. compound in Libya as a security team struggles to make sense out of the chaos.",
+        "popularity": 57.689,
+        "poster_path": "/nAnfWdvUXQemns5BR0Azi4z9o1t.jpg",
+        "release_date": "2016-01-14",
+        "title": "13 Hours: The Secret Soldiers of Benghazi",
+        "video": false,
+        "vote_average": 7.274,
+        "vote_count": 3345,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7gmhUyLDagzOtbJizNFebHQSoQT.jpg",
+        "id": 510318,
+        "original_language": "es",
+        "original_title": "Bu\u00f1uel en el laberinto de las tortugas",
+        "overview": "Paris, 1930. Luis Bu\u00f1uel is penniless after the scandal surrounding the release of his last movie. Sculptor Ram\u00f3n Ac\u00edn, a good friend, buys a lottery ticket and promises Bu\u00f1uel that he will pay for his next movie if he wins the prize.",
+        "popularity": 56.883,
+        "poster_path": "/oHYRYgEcpjD6tXRxMr5xisjJCU4.jpg",
+        "release_date": "2019-04-18",
+        "title": "Bu\u00f1uel in the Labyrinth of the Turtles",
+        "video": false,
+        "vote_average": 7.0,
+        "vote_count": 100,
+        "genres": [
+          { "id": 16, "name": "Animation" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/n4CvA50GBtIPrSqCl8nMNZCliYI.jpg",
+        "id": 7214,
+        "original_language": "en",
+        "original_title": "Coach Carter",
+        "overview": "Based on a true story, in which Richmond High School head basketball coach Ken Carter made headlines in 1999 for benching his undefeated team due to poor academic results.",
+        "popularity": 56.846,
+        "poster_path": "/y3HOTTyM5nLsdUzXFtFCohG28qj.jpg",
+        "release_date": "2005-01-14",
+        "title": "Coach Carter",
+        "video": false,
+        "vote_average": 7.566,
+        "vote_count": 2746,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rfkIeCaIHhN3K5wjJJqKmfUjYp8.jpg",
+        "id": 381284,
+        "original_language": "en",
+        "original_title": "Hidden Figures",
+        "overview": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson \u2013 brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history \u2013 the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
+        "popularity": 54.685,
+        "poster_path": "/9lfz2W2uGjyow3am00rsPJ8iOyq.jpg",
+        "release_date": "2016-12-10",
+        "title": "Hidden Figures",
+        "video": false,
+        "vote_average": 8.057,
+        "vote_count": 9210,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/Xfn9eDOaZKSz5W3PRoJI928I9c.jpg",
+        "id": 875104,
+        "original_language": "zh",
+        "original_title": "\u53f6\u95ee\u5b97\u5e08\u89c9\u9192",
+        "overview": "When a young Master Ip stops a kidnapping, he ignites a turf war with a ruthless human-trafficking ring. In retaliation, the gang kidnaps one of Ip Man's close friends, forcing him to face the group's brutal boxing champion head-on.",
+        "popularity": 54.163,
+        "poster_path": "/A7vhdyGrpPMKXsuFBZzxmave94F.jpg",
+        "release_date": "2021-09-16",
+        "title": "Ip Man: The Awakening",
+        "video": false,
+        "vote_average": 6.833,
+        "vote_count": 147,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/lUPz9zW0uf0bHfYsRRID8RtBHEU.jpg",
+        "id": 457232,
+        "original_language": "en",
+        "original_title": "Lamborghini: The Man Behind the Legend",
+        "overview": "Follow the launch of Lamborghini\u2019s career as a manufacturer of tractors, a creator of military vehicles during World War II, and the designer of Lamborghini cars, which he launched in 1963 as the high-end sports car company Automobili Lamborghini.",
+        "popularity": 53.882,
+        "poster_path": "/RKgnYLhCNGCUkrhiCRrs40rEHe.jpg",
+        "release_date": "2022-11-18",
+        "title": "Lamborghini: The Man Behind the Legend",
+        "video": false,
+        "vote_average": 6.474,
+        "vote_count": 490,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/rI1u4JgtnAZC99wXX4gwro4yaxe.jpg",
+        "id": 6844,
+        "original_language": "en",
+        "original_title": "The Ten Commandments",
+        "overview": "Escaping death, a Hebrew infant is raised in a royal household to become a prince. Upon discovery of his true heritage, Moses embarks on a personal quest to reclaim his destiny as the leader and liberator of the Hebrew people.",
+        "popularity": 53.296,
+        "poster_path": "/2rBUaC6ngeFmYXjL4KA3eLjt5wA.jpg",
+        "release_date": "1956-10-05",
+        "title": "The Ten Commandments",
+        "video": false,
+        "vote_average": 7.757,
+        "vote_count": 1475,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ecGdUZveExNhLwvVdo4E0qPjjFj.jpg",
+        "id": 733209,
+        "original_language": "en",
+        "original_title": "Man of God",
+        "overview": "Exiled unjustly, convicted without trial, slandered without cause. Man of God depicts the trials and tribulations of Saint Nektarios of Aegina, as he bears the unjust hatred of his enemies while preaching the Word of God.",
+        "popularity": 52.871,
+        "poster_path": "/zvbyqV8CPMSiqaeOXteRXYg6CPI.jpg",
+        "release_date": "2021-08-26",
+        "title": "Man of God",
+        "video": false,
+        "vote_average": 6.9,
+        "vote_count": 29,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/7fJAYM0rhzpEhCK6wxbQ412EoYW.jpg",
+        "id": 14574,
+        "original_language": "en",
+        "original_title": "The Boy in the Striped Pyjamas",
+        "overview": "When his family moves from their home in Berlin to a strange new house in Poland, young Bruno befriends Shmuel, a boy who lives on the other side of the fence where everyone seems to be wearing striped pajamas. Unaware of Shmuel's fate as a Jewish prisoner or the role his own Nazi father plays in his imprisonment, Bruno embarks on a dangerous journey inside the camp's walls.",
+        "popularity": 52.085,
+        "poster_path": "/sLwYSEVVV3r047cjrpRAbGgNsfL.jpg",
+        "release_date": "2008-05-07",
+        "title": "The Boy in the Striped Pyjamas",
+        "video": false,
+        "vote_average": 7.844,
+        "vote_count": 6801,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/hMl124Go2Ed9Qu8VsPLiA3nBSMk.jpg",
+        "id": 1579,
+        "original_language": "en",
+        "original_title": "Apocalypto",
+        "overview": "Set in the Mayan civilization, when a man's idyllic presence is brutally disrupted by a violent invading force, he is taken on a perilous journey to a world ruled by fear and oppression where a harrowing end awaits him. Through a twist of fate and spurred by the power of his love for his woman and his family he will make a desperate break to return home and to ultimately save his way of life.",
+        "popularity": 50.3,
+        "poster_path": "/xVTSNeqEymd0iZKByf68A5nLIGM.jpg",
+        "release_date": "2006-12-07",
+        "title": "Apocalypto",
+        "video": false,
+        "vote_average": 7.571,
+        "vote_count": 5241,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/nz8Ss3rOovPdKkJkZ5cj6BSAopk.jpg",
+        "id": 975056,
+        "original_language": "en",
+        "original_title": "Cabrini",
+        "overview": "Italian immigrant Francesca Cabrini arrives in 1889 New York City and is greeted by disease, crime, and impoverished children. Cabrini sets off on a daring mission to convince the hostile mayor to secure housing and healthcare for society's most vulnerable. With broken English and poor health, Cabrini uses her entrepreneurial mind to build an empire of hope unlike anything the world had ever seen.",
+        "popularity": 49.367,
+        "poster_path": "/qJqEC0f51MJvUciRiDUc9Qrrugz.jpg",
+        "release_date": "2024-03-07",
+        "title": "Cabrini",
+        "video": false,
+        "vote_average": 2.0,
+        "vote_count": 1,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/c9xSFZQtC4c16Vn5CMOaB1pGk9J.jpg",
+        "id": 2024,
+        "original_language": "en",
+        "original_title": "The Patriot",
+        "overview": "After proving himself on the field of battle in the French and Indian War, Benjamin Martin wants nothing more to do with such things, preferring the simple life of a farmer. But when his son Gabriel enlists in the army to defend their new nation, America, against the British, Benjamin reluctantly returns to his old life to protect his son.",
+        "popularity": 49.127,
+        "poster_path": "/fWZd815QxUCUcrWQZwUkAp9ljG.jpg",
+        "release_date": "2000-06-28",
+        "title": "The Patriot",
+        "video": false,
+        "vote_average": 7.175,
+        "vote_count": 3691,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/B4ZhigHvuOj0LRIbDQBWn7EF60.jpg",
+        "id": 540841,
+        "original_language": "tr",
+        "original_title": "Deliler",
+        "overview": "The true story of 7 oddly dressed fearless men of ottoman army fight against cruel Vlad.",
+        "popularity": 49.05,
+        "poster_path": "/q0Y4m9z6CD1XriNottS6XFwtT21.jpg",
+        "release_date": "2018-11-23",
+        "title": "Vlad the Impaler",
+        "video": false,
+        "vote_average": 5.77,
+        "vote_count": 37,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5En0fmDagt3Pk8d7P3uTwfeQceg.jpg",
+        "id": 490132,
+        "original_language": "en",
+        "original_title": "Green Book",
+        "overview": "Tony Lip, a bouncer in 1962, is hired to drive pianist Don Shirley on a tour through the Deep South in the days when African Americans, forced to find alternate accommodations and services due to segregation laws below the Mason-Dixon Line, relied on a guide called The Negro Motorist Green Book.",
+        "popularity": 48.559,
+        "poster_path": "/7BsvSuDQuoqhWmU2fL7W2GOcZHU.jpg",
+        "release_date": "2018-11-16",
+        "title": "Green Book",
+        "video": false,
+        "vote_average": 8.243,
+        "vote_count": 10958,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9caD0fGCrp96JTFFeGyI0CGNj7.jpg",
+        "id": 967,
+        "original_language": "en",
+        "original_title": "Spartacus",
+        "overview": "The rebellious Thracian Spartacus, born and raised a slave, is sold to Gladiator trainer Batiatus. After weeks of being trained to kill for the arena, Spartacus turns on his owners and leads the other slaves in rebellion. As the rebels move from town to town, their numbers swell as escaped slaves join their ranks. Under the leadership of Spartacus, they make their way to southern Italy, where they will cross the sea and return to their homes.",
+        "popularity": 48.357,
+        "poster_path": "/xLPpQlFWE12cbqNJQ5Vf4eJU8ij.jpg",
+        "release_date": "1960-10-13",
+        "title": "Spartacus",
+        "video": false,
+        "vote_average": 7.548,
+        "vote_count": 2023,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/kP8rK9dGS1pr0HrnmXfIi2heWjo.jpg",
+        "id": 1495,
+        "original_language": "en",
+        "original_title": "Kingdom of Heaven",
+        "overview": "After his wife dies, a blacksmith named Balian is thrust into royalty, political intrigue and bloody holy wars during the Crusades.",
+        "popularity": 47.79,
+        "poster_path": "/uk55nBEFIQFveIiy9jvLGiVtk4h.jpg",
+        "release_date": "2005-05-03",
+        "title": "Kingdom of Heaven",
+        "video": false,
+        "vote_average": 6.933,
+        "vote_count": 3974,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/8lBcqakI3F19NWkXdqE0M8W76b9.jpg",
+        "id": 197,
+        "original_language": "en",
+        "original_title": "Braveheart",
+        "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
+        "popularity": 47.584,
+        "poster_path": "/or1gBugydmjToAEq7OZY0owwFk.jpg",
+        "release_date": "1995-05-24",
+        "title": "Braveheart",
+        "video": false,
+        "vote_average": 7.94,
+        "vote_count": 9638,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/207Wp7WU6QGoxKB0iEQtLXAHue0.jpg",
+        "id": 58882,
+        "original_language": "en",
+        "original_title": "Snow Flower and the Secret Fan",
+        "overview": "A story set in 19th century China and centered on the lifelong friendship between two girls who develop their own secret code as a way to contend with the rigid cultural norms imposed on women.",
+        "popularity": 47.372,
+        "poster_path": "/lhhlq19I9BjcfmGLZc7SzHQULo0.jpg",
+        "release_date": "2011-07-15",
+        "title": "Snow Flower and the Secret Fan",
+        "video": false,
+        "vote_average": 6.059,
+        "vote_count": 85,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/6KTY6ld8Hu8XmgnzXVXS9frI3L8.jpg",
+        "id": 980026,
+        "original_language": "da",
+        "original_title": "Bastarden",
+        "overview": "Denmark, 1755. Captain Ludvig Kahlen sets out to conquer a Danish heath reputed to be uncultivable, with an impossible goal: to establish a colony in the name of the king, in exchange for a royal title. A single-minded ambition that the ruthless lord of the region will relentlessly seek to put down. Kahlen's fate hangs in the balance: will his endevours bring him wealth and honour, or cost him his life...?",
+        "popularity": 44.185,
+        "poster_path": "/npQgoOWn4fnvOIIyTj4rIV80FXC.jpg",
+        "release_date": "2023-10-05",
+        "title": "The Promised Land",
+        "video": false,
+        "vote_average": 7.735,
+        "vote_count": 85,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/sU3gFo7Gn67zjtKXIvzJ4omcUbH.jpg",
+        "id": 665,
+        "original_language": "en",
+        "original_title": "Ben-Hur",
+        "overview": "In 25 AD, Judah Ben-Hur, a Jew in ancient Judea, opposes the occupying Roman empire.  Falsely accused by a Roman childhood friend-turned-overlord of trying to kill the Roman governor, he is put into slavery and his mother and sister are taken away as prisoners.",
+        "popularity": 43.684,
+        "poster_path": "/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg",
+        "release_date": "1959-11-18",
+        "title": "Ben-Hur",
+        "video": false,
+        "vote_average": 7.886,
+        "vote_count": 2576,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      }
+    ],
+    [
+      {
+        "adult": false,
+        "backdrop_path": "/9caD0fGCrp96JTFFeGyI0CGNj7.jpg",
+        "id": 967,
+        "original_language": "en",
+        "original_title": "Spartacus",
+        "overview": "The rebellious Thracian Spartacus, born and raised a slave, is sold to Gladiator trainer Batiatus. After weeks of being trained to kill for the arena, Spartacus turns on his owners and leads the other slaves in rebellion. As the rebels move from town to town, their numbers swell as escaped slaves join their ranks. Under the leadership of Spartacus, they make their way to southern Italy, where they will cross the sea and return to their homes.",
+        "popularity": 48.357,
+        "poster_path": "/xLPpQlFWE12cbqNJQ5Vf4eJU8ij.jpg",
+        "release_date": "1960-10-13",
+        "title": "Spartacus",
+        "video": false,
+        "vote_average": 7.548,
+        "vote_count": 2023,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/mHpoCdCSebNDIIHbqaAxbD57o7H.jpg",
+        "id": 823452,
+        "original_language": "en",
+        "original_title": "The Boys in the Boat",
+        "overview": "The triumphant underdog story of the University of Washington men's rowing team, who stunned the world by winning gold at the 1936 Berlin Olympics.",
+        "popularity": 32.793,
+        "poster_path": "/ncJMztHprw3gLRAnDjNnnT23CIt.jpg",
+        "release_date": "2023-12-25",
+        "title": "The Boys in the Boat",
+        "video": false,
+        "vote_average": 7.687,
+        "vote_count": 91,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/byrnepNxBqUUdrlKPJvA846Lj9V.jpg",
+        "id": 796185,
+        "original_language": "fr",
+        "original_title": "Les Trois Mousquetaires : D'Artagnan",
+        "overview": "D'Artagnan, a spirited young Gascon, is left for dead after trying to save a noblewoman from being kidnapped. Once in Paris, he tries by all means to find his attackers, unaware that his quest will lead him to the very heart of a war where the future of France is at stake. Aided by King's Musketeers Athos, Porthos and Aramis, he faces the machinations of villainous Cardinal Richelieu and Milady de Winter, while falling in love with Constance, the Queen's confidante.",
+        "popularity": 39.505,
+        "poster_path": "/hfExJPcbBtDeFDEb7I1By72Drlr.jpg",
+        "release_date": "2023-04-05",
+        "title": "The Three Musketeers: D'Artagnan",
+        "video": false,
+        "vote_average": 7.057,
+        "vote_count": 940,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/zv1xOEQzebKyku349qDZ085FZlO.jpg",
+        "id": 676,
+        "original_language": "en",
+        "original_title": "Pearl Harbor",
+        "overview": "The lifelong friendship between Rafe McCawley and Danny Walker is put to the ultimate test when the two ace fighter pilots become entangled in a love triangle with beautiful Naval nurse Evelyn Johnson. But the rivalry between the friends-turned-foes is immediately put on hold when they find themselves at the center of Japan's devastating attack on Pearl Harbor on Dec. 7, 1941.",
+        "popularity": 40.254,
+        "poster_path": "/y8A0Cvp8WQmZ3bjbnsL53lY0dsC.jpg",
+        "release_date": "2001-05-21",
+        "title": "Pearl Harbor",
+        "video": false,
+        "vote_average": 6.938,
+        "vote_count": 6148,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10749, "name": "Romance" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/ghycxyGDKvlOcVhRNvPoXDmCjYV.jpg",
+        "id": 588108,
+        "original_language": "ko",
+        "original_title": "\ud55c\uc0b0: \uc6a9\uc758 \ucd9c\ud604",
+        "overview": "In 1592, admiral Yi Sun-sin and his fleet face off against the might of the invading Japanese navy and its formidable warships. As the Korean forces fall into crisis, the admiral resorts to using his secret weapon, the dragon head ships known as geobukseon, in order to change the tide of this epic battle at sea.",
+        "popularity": 40.987,
+        "poster_path": "/vH76IrIrZLHmO0WOD4U7nxBHgkR.jpg",
+        "release_date": "2022-07-27",
+        "title": "Hansan: Rising Dragon",
+        "video": false,
+        "vote_average": 6.5,
+        "vote_count": 49,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/qQGHkmLWPcMGkKws78pFh14SzUo.jpg",
+        "id": 8095,
+        "original_language": "en",
+        "original_title": "Cleopatra",
+        "overview": "Determined to hold on to the throne, Cleopatra seduces the Roman emperor Julius Caesar. When Caesar is murdered, she redirects her attentions to his general, Marc Antony, who vows to take power\u2014but Caesar\u2019s successor has other plans.",
+        "popularity": 42.17,
+        "poster_path": "/bj7rUGUewofA9cpHt1h36gvDFfy.jpg",
+        "release_date": "1963-06-12",
+        "title": "Cleopatra",
+        "video": false,
+        "vote_average": 7.062,
+        "vote_count": 698,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10749, "name": "Romance" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/bMGhPOcjvSPAepwfPdXIf9OxgxX.jpg",
+        "id": 9477,
+        "original_language": "en",
+        "original_title": "King Arthur",
+        "overview": "The story of the Arthurian legend, based on the 'Sarmatian hypothesis' which contends that the legend has a historical nucleus in the Sarmatian heavy cavalry troops stationed in Britain, and that the Roman-British military commander, Lucius Artorius Castus is the historical person behind the legend.",
+        "popularity": 43.668,
+        "poster_path": "/5Mqmke8JKE7s8JeYNp7XtzxQXbL.jpg",
+        "release_date": "2004-07-07",
+        "title": "King Arthur",
+        "video": false,
+        "vote_average": 6.282,
+        "vote_count": 2563,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/maxRhndtC4BJABvqRPvYNu69CHA.jpg",
+        "id": 551271,
+        "original_language": "en",
+        "original_title": "Medieval",
+        "overview": "The story of fifteenth century Czech icon and warlord, Jan Zizka, who defeated armies of the Teutonic Order and the Holy Roman Empire.",
+        "popularity": 34.89,
+        "poster_path": "/eeUNWsdoiOijOZAMaWFDA5Pb1n8.jpg",
+        "release_date": "2022-09-08",
+        "title": "Medieval",
+        "video": false,
+        "vote_average": 7.063,
+        "vote_count": 438,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4njfDPI3VeNPyHwWYYdPruU9MDk.jpg",
+        "id": 1163258,
+        "original_language": "hi",
+        "original_title": "12th Fail",
+        "overview": "Based on the true story of IPS officer Manoj Kumar Sharma, 12th Fail sheds limelight on fearlessly embracing the idea of restarting the academic journey despite the setbacks and challenges and reclaiming one's destiny at a place where millions of students attempt the world's toughest competitive exam: UPSC.",
+        "popularity": 37.364,
+        "poster_path": "/eebUPRI4Z5e1Z7Hev4JZAwMIFkX.jpg",
+        "release_date": "2023-10-27",
+        "title": "12th Fail",
+        "video": false,
+        "vote_average": 8.4,
+        "vote_count": 69,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/k63u1PAW8aL7hy1Rwtn0d0oy4rn.jpg",
+        "id": 9912,
+        "original_language": "en",
+        "original_title": "The World's Fastest Indian",
+        "overview": "The life story of New Zealander Burt Munro, who spent years building a 1920 Indian motorcycle\u2014a bike which helped him set the land-speed world record at Utah's Bonneville Salt Flats in 1967.",
+        "popularity": 39.691,
+        "poster_path": "/i7obsEYXjo725H9vneFqxxUiZw7.jpg",
+        "release_date": "2005-10-12",
+        "title": "The World's Fastest Indian",
+        "video": false,
+        "vote_average": 7.629,
+        "vote_count": 679,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/2W9HjAYWNug5RwyrEtrneXeL94Z.jpg",
+        "id": 524,
+        "original_language": "en",
+        "original_title": "Casino",
+        "overview": "In early-1970s Las Vegas, Sam \"Ace\" Rothstein gets tapped by his bosses to head the Tangiers Casino. At first, he's a great success in the job, but over the years, problems with his loose-cannon enforcer Nicky Santoro, his ex-hustler wife Ginger, her con-artist ex Lester Diamond and a handful of corrupt politicians put Sam in ever-increasing danger.",
+        "popularity": 33.34,
+        "poster_path": "/4TS5O1IP42bY2BvgMxL156EENy.jpg",
+        "release_date": "1995-11-22",
+        "title": "Casino",
+        "video": false,
+        "vote_average": 8.012,
+        "vote_count": 5491,
+        "genres": [
+          { "id": 80, "name": "Crime" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/jDz6RYN3nKYtlo7J9IMvGoJit7B.jpg",
+        "id": 79,
+        "original_language": "zh",
+        "original_title": "\u82f1\u96c4",
+        "overview": "During China's Warring States period, a district prefect arrives at the palace of Qin Shi Huang, claiming to have killed the three assassins who had made an attempt on the king's life three years ago.",
+        "popularity": 25.833,
+        "poster_path": "/be1Tnbqgw5skgjoQRG3vPAtNZUQ.jpg",
+        "release_date": "2002-07-22",
+        "title": "Hero",
+        "video": false,
+        "vote_average": 7.512,
+        "vote_count": 2118,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5xegGPhCSVMKbyh6zeT6Th0BWLB.jpg",
+        "id": 522162,
+        "original_language": "en",
+        "original_title": "Midway",
+        "overview": "The story of the Battle of Midway, and the leaders and soldiers who used their instincts, fortitude and bravery to overcome massive odds.",
+        "popularity": 33.284,
+        "poster_path": "/hj8pyoNnynGeJTAbl7jcLZO8Uhx.jpg",
+        "release_date": "2019-11-06",
+        "title": "Midway",
+        "video": false,
+        "vote_average": 7.141,
+        "vote_count": 2335,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/cpqWIjNrAzLIBUHhRWB79LJ39lr.jpg",
+        "id": 277216,
+        "original_language": "en",
+        "original_title": "Straight Outta Compton",
+        "overview": "In 1987, five young men, using brutally honest rhymes and hardcore beats, put their frustration and anger about life in the most dangerous place in America into the most powerful weapon they had: their music.  Taking us back to where it all began, Straight Outta Compton tells the true story of how these cultural rebels\u2014armed only with their lyrics, swagger, bravado and raw talent\u2014stood up to the authorities that meant to keep them down and formed the world\u2019s most dangerous group, N.W.A.  And as they spoke the truth that no one had before and exposed life in the hood, their voice ignited a social revolution that is still reverberating today.",
+        "popularity": 36.454,
+        "poster_path": "/9B63hMwU6iICtNDTISCaZQ5US7R.jpg",
+        "release_date": "2015-08-11",
+        "title": "Straight Outta Compton",
+        "video": false,
+        "vote_average": 7.788,
+        "vote_count": 3698,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10402, "name": "Music" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3gVo3f5We49VKk5BKEIRkxcibwz.jpg",
+        "id": 522212,
+        "original_language": "en",
+        "original_title": "Just Mercy",
+        "overview": "The powerful true story of Harvard-educated lawyer Bryan Stevenson, who goes to Alabama to defend the disenfranchised and wrongly condemned \u2014 including Walter McMillian, a man sentenced to death despite evidence proving his innocence. Bryan fights tirelessly for Walter with the system stacked against them.",
+        "popularity": 25.887,
+        "poster_path": "/4YJNp1cquIkX8JxFwkKNEFQ9tgr.jpg",
+        "release_date": "2019-12-25",
+        "title": "Just Mercy",
+        "video": false,
+        "vote_average": 7.892,
+        "vote_count": 2110,
+        "genres": [
+          { "id": 80, "name": "Crime" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/kP8rK9dGS1pr0HrnmXfIi2heWjo.jpg",
+        "id": 1495,
+        "original_language": "en",
+        "original_title": "Kingdom of Heaven",
+        "overview": "After his wife dies, a blacksmith named Balian is thrust into royalty, political intrigue and bloody holy wars during the Crusades.",
+        "popularity": 47.79,
+        "poster_path": "/uk55nBEFIQFveIiy9jvLGiVtk4h.jpg",
+        "release_date": "2005-05-03",
+        "title": "Kingdom of Heaven",
+        "video": false,
+        "vote_average": 6.932,
+        "vote_count": 3973,
+        "genres": [
+          { "id": 28, "name": "Action" },
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 10752, "name": "War" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/3pIqd1hgZ2xqzWEyiYp4blqE9Fi.jpg",
+        "id": 522241,
+        "original_language": "en",
+        "original_title": "The Courier",
+        "overview": "Cold War spy Greville Wynne and his Russian source try to put an end to the Cuban Missile Crisis.",
+        "popularity": 32.382,
+        "poster_path": "/zFIjKtZrzhmc7HecdFXXjsLR2Ig.jpg",
+        "release_date": "2020-01-24",
+        "title": "The Courier",
+        "video": false,
+        "vote_average": 7.039,
+        "vote_count": 1034,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" },
+          { "id": 53, "name": "Thriller" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/liUAfEcHbK16zbHfTHgaUmAEFRC.jpg",
+        "id": 772733,
+        "original_language": "en",
+        "original_title": "Shogun",
+        "overview": "An English navigator becomes both pawn and player in the deadly political games in feudal Japan.",
+        "popularity": 26.293,
+        "poster_path": "/d3fKUq0tXb5wWc9bTYmst9geAps.jpg",
+        "release_date": "1981-06-17",
+        "title": "Shogun",
+        "video": false,
+        "vote_average": 6.176,
+        "vote_count": 17,
+        "genres": [
+          { "id": 12, "name": "Adventure" },
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/5WparwIlAtSZW0tcWbK2NHEZJC6.jpg",
+        "id": 310307,
+        "original_language": "en",
+        "original_title": "The Founder",
+        "overview": "The true story of how Ray Kroc, a salesman from Illinois, met Mac and Dick McDonald, who were running a burger operation in 1950s Southern California. Kroc was impressed by the brothers\u2019 speedy system of making the food and saw franchise potential. He maneuvered himself into a position to be able to pull the company from the brothers and create a billion-dollar empire.",
+        "popularity": 43.285,
+        "poster_path": "/8gLIksu5ggdfBL1UbeTeonHquxl.jpg",
+        "release_date": "2016-09-13",
+        "title": "The Founder",
+        "video": false,
+        "vote_average": 7.116,
+        "vote_count": 4660,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/4Bb1kMIfrT2tYRZ9M6Jhqy6gkeF.jpg",
+        "id": 76203,
+        "original_language": "en",
+        "original_title": "12 Years a Slave",
+        "overview": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon\u2019s chance meeting with a Canadian abolitionist will forever alter his life.",
+        "popularity": 38.992,
+        "poster_path": "/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
+        "release_date": "2013-10-18",
+        "title": "12 Years a Slave",
+        "video": false,
+        "vote_average": 7.945,
+        "vote_count": 10864,
+        "genres": [
+          { "id": 18, "name": "Drama" },
+          { "id": 36, "name": "History" }
+        ]
+      }
+    ]
+  ]
+}
