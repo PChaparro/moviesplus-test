@@ -16,9 +16,9 @@ export const CategoriesGrid = ({
   if (isLoading) return <CategoriesGridSkeleton />;
 
   return (
-    <ul className={'cards-grid'} style={{ marginBlockStart: '2rem' }}>
+    <ul className={'cards-grid mt-8'}>
       {categories?.map((category) => (
-        <li key={category.id}>
+        <li key={`category-${category.id}-card`}>
           <CategoryCard category={category} />
         </li>
       ))}

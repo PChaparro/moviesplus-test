@@ -3,23 +3,23 @@ import { PlayIcon } from 'lucide-react';
 
 import { Button } from '@/components/button/button';
 
-import Styles from './featuredMovieHeader.module.css';
-
 export const FeaturedMovieHeader = () => {
   return (
-    <header className={Styles.header}>
+    <header className='relative min-h-[60svh] overflow-hidden rounded-3xl'>
       <img
-        className={Styles.header__poster}
+        className='absolute inset-0 h-full w-full object-cover object-center'
         src={featuredMovieBanner}
         alt='Oppenheimer movie banner'
         width={1164}
         height={587}
         loading='eager'
       />
-      <div className={Styles.header__content}>
-        <div className={Styles.header__text}>
-          <h1 className={Styles.header__title}>Oppenheimer</h1>
-          <p className={Styles.header__description}>
+      <div className='absolute inset-0 bg-gradient-to-t from-brand-bg/85 to-transparent p-8 md:bg-gradient-to-r md:p-12'>
+        <div className='flex h-full max-w-prose flex-col items-start justify-end gap-4 text-white md:justify-center'>
+          <h1 className='text-3xl  font-semibold tracking-wide md:text-5xl'>
+            Oppenheimer
+          </h1>
+          <p className='line-clamp-4 text-balance text-lg'>
             Film about physicist J. Robert Oppenheimer and his role as the
             developer of the atomic bomb. Based on the book 'American
             Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer' by Kai

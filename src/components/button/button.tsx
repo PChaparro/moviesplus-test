@@ -1,24 +1,25 @@
 import { type VariantProps, cva } from 'class-variance-authority';
 
-import Styles from './button.module.css';
-
-export const buttonVariantClassnames = cva(Styles.button, {
-  variants: {
-    variant: {
-      primary: Styles['button--primary'],
-      outline: Styles['button--outline'],
+export const buttonVariantClassnames = cva(
+  'inline-flex justify-center items-center transition-colors border border-transparent rounded-md',
+  {
+    variants: {
+      variant: {
+        primary: 'bg-brand-primary text-white hover:bg-brand-primary-dark',
+        outline: 'border-brand-primary text-brand-primary bg-transparent',
+      },
+      size: {
+        normal: 'px-4 py-2 text-base',
+        icon: 'aspect-square w-10 h-10',
+      },
     },
-    size: {
-      normal: Styles['button--normal'],
-      icon: Styles['button--icon'],
+    // compoundVariants: [],
+    defaultVariants: {
+      variant: 'primary',
+      size: 'normal',
     },
   },
-  // compoundVariants: [],
-  defaultVariants: {
-    variant: 'primary',
-    size: 'normal',
-  },
-});
+);
 
 interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,

@@ -6,8 +6,6 @@ import navbarLinks from '@/data/navbar/links.json';
 import { buttonVariantClassnames } from '@/components/button/button';
 import { MoviesPlusLogo } from '@/components/moviesPlusLogo/moviesPlusLogo';
 
-import Styles from './desktopNavbar.module.css';
-
 const { default: defaultLinks } = navbarLinks;
 
 export const DesktopNavbar = () => {
@@ -17,18 +15,21 @@ export const DesktopNavbar = () => {
   } = router;
 
   return (
-    <nav className={`${Styles.nav} container`}>
+    <nav className='container hidden h-24 items-center justify-between gap-8 md:flex'>
       <MoviesPlusLogo />
 
       {/* Links */}
-      <ul className={Styles['nav__links-list']}>
+      <ul className='flex flex-grow gap-4'>
         {defaultLinks.map((link) => (
           <li key={link.path}>
             <Link
               to={link.path}
-              className={clsx(Styles['nav__link'], {
-                [Styles['nav__link--active']]: pathname === link.path,
-              })}
+              className={clsx(
+                'inline-flex items-center text-lg text-white/85 transition-colors hover:text-white',
+                {
+                  '!text-white': pathname === link.path,
+                },
+              )}
             >
               {link.name}
             </Link>

@@ -1,62 +1,12 @@
-/* Reset default styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-/* Variables */
-:root {
-  /* Colors f51434 */
-  --bg-color: #0a0a12;
-  --text-color: #fff;
-  --text-color--opaque: #c3c3c3;
-  --brand-primary: #f51434;
-  --brand-primary--hover: #d90a29;
-
-  /* Font sizes */
-  --fz-base: clamp(1rem, 2vw, 1.125rem);
-  --fz-lg: clamp(1.125rem, 2vw, 1.25rem);
-  --fz-xl: clamp(1.25rem, 2vw, 1.375rem);
-  --fz-2xl: clamp(1.375rem, 2vw, 1.5rem);
-}
-
-/* Global styles */
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-size: var(--fz-base);
-  font-family: 'Poppins', sans-serif;
-}
-
-section,
-header {
-  margin-block: 2rem;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Utility classes */
 .container {
-  margin: 0 auto;
-  padding: 0 1.125rem;
-  max-width: 1200px;
-}
-
-.mr-2 {
-  margin-inline-end: 0.5rem;
+  @apply mx-auto max-w-screen-xl px-8;
 }
 
 .cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.5rem;
+  @apply grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-8;
 }

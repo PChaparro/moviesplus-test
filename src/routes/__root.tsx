@@ -3,8 +3,8 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { createRootRoute, Outlet } from '@tanstack/react-router';
 import { TanStackRouterDevtools } from '@tanstack/router-devtools';
 
-import { DesktopNavbar } from '@/components/navbar/desktop/desktopNavbar';
-import { MobileNavbar } from '@/components/navbar/mobile/mobileNavbar';
+import { DesktopNavbar } from '@/components/navbar/desktopNavbar';
+import { MobileNavbar } from '@/components/navbar/mobileNavbar';
 
 const queryClient = new QueryClient({
   defaultOptions: {
