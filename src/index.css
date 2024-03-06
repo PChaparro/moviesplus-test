@@ -28,6 +28,7 @@ ol {
   --fz-base: clamp(1rem, 2vw, 1.125rem);
   --fz-lg: clamp(1.125rem, 2vw, 1.25rem);
   --fz-xl: clamp(1.25rem, 2vw, 1.375rem);
+  --fz-2xl: clamp(1.375rem, 2vw, 1.5rem);
 }
 
 /* Global styles */
@@ -36,6 +37,11 @@ body {
   color: var(--text-color);
   font-size: var(--fz-base);
   font-family: 'Poppins', sans-serif;
+}
+
+section,
+header {
+  margin-block: 2rem;
 }
 
 /* Utility classes */
@@ -47,4 +53,10 @@ body {
 
 .mr-2 {
   margin-inline-end: 0.5rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
 }
