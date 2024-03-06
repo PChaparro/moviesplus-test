@@ -1,7 +1,7 @@
 import featuredMovieBanner from '@/assets/images/featured-movie-banner.webp';
 import { PlayIcon } from 'lucide-react';
 
-import { Button } from '@/components/button/button';
+import { Button } from '@/components/shared/button/button';
 
 export const FeaturedMovieHeader = () => {
   return (
