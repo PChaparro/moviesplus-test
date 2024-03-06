@@ -30,7 +30,7 @@ export const MobileNavbar = () => {
       {/* Blur layer + content */}
       <div
         className={clsx(
-          'bg-brand-bg/85 fixed inset-0 z-50 hidden backdrop-blur-sm',
+          'fixed inset-0 z-50 hidden bg-brand-bg/85 backdrop-blur-sm',
           {
             '!block': isOpen,
           },
@@ -44,7 +44,7 @@ export const MobileNavbar = () => {
       >
         {/* Content container*/}
         <div
-          className='bg-brand-bg flex h-full w-full max-w-xs flex-col gap-8 overflow-y-auto p-8'
+          className='flex h-full w-full max-w-xs flex-col gap-8 overflow-y-auto bg-brand-bg p-8'
           onClick={(e) => e.stopPropagation()}
         >
           {/* Close button */}

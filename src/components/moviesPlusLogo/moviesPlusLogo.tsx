@@ -6,7 +6,7 @@ export const MoviesPlusLogo = () => {
     <Link to='/' className='inline-flex items-center justify-center'>
       <img src={LogoAsset} alt='Movies Plus Logo' width='80' height='80' />
       <span
-        className='text-brand-primary xs:block hidden text-xl font-bold'
+        className='hidden text-xl font-bold text-brand-primary xs:block'
         translate='no'
       >
         Movies+

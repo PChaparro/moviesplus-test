@@ -11,7 +11,7 @@ export const CategoryCard = ({ category }: { category: Category }) => {
         height={409}
         loading='lazy'
       />
-      <div className='to-brand-bg/85 absolute inset-0 flex items-end justify-center bg-gradient-to-b from-transparent from-30% p-10'>
+      <div className='absolute inset-0 flex items-end justify-center bg-gradient-to-b from-transparent from-30% to-brand-bg/85 p-10'>
         <h3 className='text-3xl font-semibold tracking-wide text-white'>
           {category.name}
         </h3>
