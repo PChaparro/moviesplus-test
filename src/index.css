@@ -2,29 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Reset default styles */
-
-/* Variables */
-:root {
-  /* Colors f51434 */
-  --bg-color: #0a0a12;
-  --text-color: #fff;
-  --text-color--opaque: #c3c3c3;
-  --brand-primary: #f51434;
-  --brand-primary--hover: #d90a29;
-
-  /* Font sizes */
-  --fz-base: clamp(1rem, 2vw, 1.125rem);
-  --fz-lg: clamp(1.125rem, 2vw, 1.25rem);
-  --fz-xl: clamp(1.25rem, 2vw, 1.375rem);
-  --fz-2xl: clamp(1.375rem, 2vw, 1.5rem);
-}
-
-section,
-header {
-  margin-block: 2rem;
-}
-
 /* Utility classes */
 .container {
   @apply mx-auto max-w-screen-xl px-8;
