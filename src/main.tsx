@@ -4,6 +4,7 @@ import '@fontsource/poppins/900.css';
 import { RouterProvider, createRouter } from '@tanstack/react-router';
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
+import 'react-loading-skeleton/dist/skeleton.css';
 
 import './index.css';
 import { routeTree } from './routeTree.gen';

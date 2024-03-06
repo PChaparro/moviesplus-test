@@ -29,6 +29,7 @@
 .button--normal {
   padding-inline: 1rem;
   padding-block: 0.5rem;
+  font-size: var(--fz-base);
 }
 
 .button--icon {
