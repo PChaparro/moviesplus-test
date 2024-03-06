@@ -10,7 +10,7 @@ export default {
         brand: {
           primary: {
             DEFAULT: '#f51434',
-            hover: '#d90a29',
+            dark: '#d90a29',
           },
           bg: '#0a0a12',
         },
