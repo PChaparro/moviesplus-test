@@ -27,7 +27,7 @@ export const DesktopNavbar = () => {
               className={clsx(
                 'inline-flex items-center text-lg text-white/85 transition-colors hover:text-white',
                 {
-                  'text-white': pathname === link.path,
+                  '!text-white': pathname === link.path,
                 },
               )}
             >

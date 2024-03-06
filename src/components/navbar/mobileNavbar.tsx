@@ -66,7 +66,7 @@ export const MobileNavbar = () => {
                   className={clsx(
                     'inline-block w-full py-2 text-lg text-white/85',
                     {
-                      'text-white': pathname === link.path,
+                      '!text-white': pathname === link.path,
                     },
                   )}
                   onClick={() => setIsOpen(false)}
