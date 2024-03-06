@@ -1,4 +1,5 @@
 import { createLazyFileRoute } from '@tanstack/react-router';
+import InfiniteScroll from 'react-infinite-scroll-component';
 
 import { useCategoryMovies } from '@/hooks/useCategoryMovies';
 
@@ -16,6 +17,8 @@ function Page() {
   const {
     isLoading,
     movies,
+    hasNextPage,
+    fetchNextPage,
     category: { name: categoryName },
   } = useCategoryMovies({ categoryId });
 
@@ -26,13 +29,20 @@ function Page() {
       <h1 className='text-4xl font-semibold text-white'>
         {categoryName} Movies
       </h1>
-      <ul className='cards-grid mt-8'>
-        {movies?.map((movie) => (
-          <li key={movie.id}>
-            <MovieCard movie={movie} />
-          </li>
-        ))}
-      </ul>
+      <InfiniteScroll
+        dataLength={movies?.length ?? 0}
+        hasMore={hasNextPage}
+        next={fetchNextPage}
+        loader={null}
+      >
+        <ul className='cards-grid mt-8'>
+          {movies?.map((movie) => (
+            <li key={movie.id}>
+              <MovieCard movie={movie} />
+            </li>
+          ))}
+        </ul>
+      </InfiniteScroll>
     </main>
   );
 }
