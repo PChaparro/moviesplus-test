@@ -37,9 +37,12 @@
 }
 
 .header__title {
+  max-width: 100%;
+  overflow: hidden;
   font-size: clamp(1.75rem, 5vw, 2.5rem);
   line-height: 2rem;
   letter-spacing: 0.25rem;
+  text-overflow: ellipsis;
   text-transform: uppercase;
 }
 
