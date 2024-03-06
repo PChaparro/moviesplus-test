@@ -13,13 +13,10 @@ import navbarLinks from '@/data/navbar/links.json';
 import { Button, buttonVariantClassnames } from '@/components/button/button';
 import { MoviesPlusLogo } from '@/components/moviesPlusLogo/moviesPlusLogo';
 
-import Styles from './mobileNavbar.module.css';
-
 const { default: defaultLinks } = navbarLinks;
 
 export const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => setIsOpen(!isOpen);
 
   const router = useRouterState();
   const {
@@ -27,45 +24,52 @@ export const MobileNavbar = () => {
   } = router;
 
   return (
-    <nav
-      className={`${clsx(Styles.nav, {
-        [Styles['nav--active']]: isOpen,
-      })} container`}
-    >
+    <nav className='container flex h-24 items-center justify-between gap-8 md:hidden'>
       <MoviesPlusLogo />
 
       {/* Blur layer + content */}
       <div
-        className={Styles['nav__blur-layer']}
-        onClick={toggleMenu}
+        className={clsx(
+          'bg-brand-bg/85 fixed inset-0 z-50 hidden backdrop-blur-sm',
+          {
+            '!block': isOpen,
+          },
+        )}
+        onClick={(e) => {
+          e.stopPropagation();
+          setIsOpen(false);
+        }}
         aria-hidden={!isOpen}
         aria-label={'Close menu'}
       >
         {/* Content container*/}
         <div
-          className={Styles['nav__container']}
+          className='bg-brand-bg flex h-full w-full max-w-xs flex-col gap-8 overflow-y-auto p-8'
           onClick={(e) => e.stopPropagation()}
         >
           {/* Close button */}
           <Button
             size={'icon'}
             variant={'outline'}
-            onClick={toggleMenu}
+            onClick={() => setIsOpen(false)}
             aria-label={'Close menu'}
           >
             <XIcon />
           </Button>
 
           {/* Links */}
-          <ul className={Styles['nav__links-list']}>
+          <ul className='flex flex-col gap-4'>
             {defaultLinks.map((link) => (
               <li key={link.path}>
                 <Link
                   to={link.path}
-                  className={clsx(Styles['nav__link'], {
-                    [Styles['nav__link--active']]: pathname === link.path,
-                  })}
-                  onClick={toggleMenu}
+                  className={clsx(
+                    'inline-block w-full py-2 text-lg text-white/85',
+                    {
+                      'text-white': pathname === link.path,
+                    },
+                  )}
+                  onClick={() => setIsOpen(false)}
                 >
                   {link.name}
                 </Link>
@@ -74,11 +78,11 @@ export const MobileNavbar = () => {
           </ul>
 
           {/* Session items*/}
-          <div className={Styles['nav__session-items']}>
+          <div className={'flex flex-grow flex-col justify-end'}>
             <Link
               to='/login'
               className={`${buttonVariantClassnames({ variant: 'primary' })}`}
-              onClick={toggleMenu}
+              onClick={() => setIsOpen(false)}
             >
               Sign In
             </Link>
@@ -90,8 +94,8 @@ export const MobileNavbar = () => {
       <Button
         size={'icon'}
         variant={'outline'}
-        onClick={toggleMenu}
-        aria-label={`${isOpen ? 'Close' : 'Open'} menu`}
+        onClick={() => setIsOpen(true)}
+        aria-label={'Open menu'}
       >
         <MenuIcon />
       </Button>
