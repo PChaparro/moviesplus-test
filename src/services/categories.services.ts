@@ -10,7 +10,7 @@ import categoriesMockData from '@/data/categories/categories.json';
 
 export async function getCategoriesService(): Promise<Category[]> {
   await new Promise((resolve) =>
-    setTimeout(resolve, getRandomNumber({ min: 500, max: 1000 })),
+    setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
   );
 
   return categoriesMockData;
@@ -42,7 +42,7 @@ export async function getMoviesByCategoryService(
   page: number = 1,
 ): Promise<CategoryMoviesResponse> {
   await new Promise((resolve) =>
-    setTimeout(resolve, getRandomNumber({ min: 500, max: 1000 })),
+    setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
   );
 
   if (!categoriesMoviesMockData[categoryId]) {
