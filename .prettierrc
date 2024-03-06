@@ -12,12 +12,16 @@
   "useTabs": false,
   "tabWidth": 2,
   "importOrder": [
-    "^@context/(.*)$",
-    "^@screens/(.*)$",
-    "^@hooks/(.*)$",
-    "^@components/(.*)$",
+    "^@/context/(.*)$",
+    "^@/screens/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/data/(.*)$",
+    "^@/components/(.*)$",
     "^[./]"
   ],
   "importOrderSeparation": true,
-  "plugins": ["@trivago/prettier-plugin-sort-imports"]
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
 }

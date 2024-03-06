@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "name": "Action",
+    "thumbnail": "/images/categories/action.webp"
+  },
+  {
+    "id": "2",
+    "name": "Comedy",
+    "thumbnail": "/images/categories/comedy.webp"
+  },
+  {
+    "id": "3",
+    "name": "Animation",
+    "thumbnail": "/images/categories/animation.webp"
+  },
+  {
+    "id": "4",
+    "name": "History",
+    "thumbnail": "/images/categories/history.webp"
+  },
+  {
+    "id": "5",
+    "name": "Adventure",
+    "thumbnail": "/images/categories/adventure.webp"
+  }
+]
