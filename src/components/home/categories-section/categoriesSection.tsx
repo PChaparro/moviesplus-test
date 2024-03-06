@@ -7,7 +7,7 @@ export const CategoriesSection = () => {
 
   return (
     <section id='categories'>
-      <h2>Categories</h2>
+      <h2 className='text-4xl font-semibold text-white'>Categories</h2>
       <CategoriesGrid isLoading={isLoading} categories={categories} />
     </section>
   );
