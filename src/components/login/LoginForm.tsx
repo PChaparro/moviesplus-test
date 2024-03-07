@@ -79,7 +79,12 @@ export const LoginForm = () => {
           aria-describedby='email-error'
         />
         {errors.email ? (
-          <span className='text-red-500' id='email-error' aria-live='polite'>
+          <span
+            className='text-red-500'
+            id='email-error'
+            aria-live='polite'
+            role='alert'
+          >
             {errors.email.message}
           </span>
         ) : null}
@@ -98,7 +103,12 @@ export const LoginForm = () => {
           aria-describedby='password-error'
         />
         {errors.password ? (
-          <span className='text-red-500' id='password-error' aria-live='polite'>
+          <span
+            className='text-red-500'
+            id='password-error'
+            aria-live='polite'
+            role='alert'
+          >
             {errors.password.message}
           </span>
         ) : null}
