@@ -13,7 +13,7 @@ export const Route = createLazyFileRoute('/login/')({
 function Login() {
   return (
     <main className='container grid gap-4 md:grid-cols-2'>
-      <div className='z-10 grid place-content-center justify-center sm:-mt-32 md:-mt-0'>
+      <div className='z-10 grid place-content-center sm:-mt-32 md:-mt-0'>
         <h1 className='mb-4 text-4xl font-semibold text-white'>Login</h1>
         <LoginForm />
       </div>
@@ -29,6 +29,7 @@ function Login() {
             src={loginMobileImage}
             alt='Login background'
             className='mx-auto hidden w-full max-w-xl rounded-md object-contain object-center sm:block'
+            loading='eager'
             width={640}
             height={427}
           />
