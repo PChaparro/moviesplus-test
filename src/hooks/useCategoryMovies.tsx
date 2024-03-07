@@ -6,19 +6,22 @@ interface UseCategoryMoviesProps {
 }
 
 export const useCategoryMovies = ({ categoryId }: UseCategoryMoviesProps) => {
-  const { isLoading, data, hasNextPage, fetchNextPage } = useInfiniteQuery({
-    queryKey: ['category-movies', categoryId],
-    queryFn: ({ pageParam }) =>
-      getMoviesByCategoryService(categoryId, pageParam),
-    getNextPageParam: (lastPage) => lastPage.next,
-    initialPageParam: 1,
-  });
+  const { isLoading, isError, error, data, hasNextPage, fetchNextPage } =
+    useInfiniteQuery({
+      queryKey: ['category-movies', categoryId],
+      queryFn: ({ pageParam }) =>
+        getMoviesByCategoryService(categoryId, pageParam),
+      getNextPageParam: (lastPage) => lastPage.next,
+      initialPageParam: 1,
+    });
 
   const movies = data?.pages.flatMap((page) => page.movies);
   const categoryName = data?.pages[0].name;
 
   return {
     isLoading,
+    isError,
+    error,
     movies,
     category: {
       id: categoryId,

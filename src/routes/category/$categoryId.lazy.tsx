@@ -4,6 +4,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import { useCategoryMovies } from '@/hooks/useCategoryMovies';
 
 import { ContentCategorySkeleton } from '@/components/category/contentCategorySkeleton';
+import { CustomError } from '@/components/shared/error/CustomError';
 import { MovieCard } from '@/components/shared/movieCard/MovieCard';
 
 export const Route = createLazyFileRoute('/category/$categoryId')({
@@ -16,6 +17,8 @@ function ContentCategory() {
 
   const {
     isLoading,
+    isError,
+    error,
     movies,
     hasNextPage,
     fetchNextPage,
@@ -23,6 +26,8 @@ function ContentCategory() {
   } = useCategoryMovies({ categoryId });
 
   if (isLoading) return <ContentCategorySkeleton />;
+
+  if (isError) return <CustomError message={error?.message} />;
 
   return (
     <main className='container'>
