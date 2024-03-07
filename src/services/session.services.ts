@@ -1,10 +1,7 @@
 import { SessionUser } from '@/types/definitions';
 import axios from 'axios';
 
-const expectedUser = {
-  email: 'bemaster@gmail.com',
-  password: 'bemaster123',
-};
+import expectedUser from '@/data/session/credentials.json';
 
 interface RandomUserResponse {
   results: {
