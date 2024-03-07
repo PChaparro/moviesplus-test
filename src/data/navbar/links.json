@@ -5,5 +5,14 @@
       "path": "/"
     }
   ],
-  "authenticated": []
+  "authenticated": [
+    {
+      "name": "Favorites",
+      "path": "/favorites"
+    },
+    {
+      "name": "Watchlist",
+      "path": "/watchlist"
+    }
+  ]
 }

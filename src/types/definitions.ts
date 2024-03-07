@@ -17,3 +17,9 @@ export type Movie = {
     name: string;
   }[];
 };
+
+export type SessionUser = {
+  id: string;
+  username: string;
+  picture: string;
+};

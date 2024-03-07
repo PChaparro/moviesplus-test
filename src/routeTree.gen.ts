@@ -9,10 +9,10 @@ import { createFileRoute } from '@tanstack/react-router';
 // Import Routes
 import { Route as rootRoute } from './routes/__root';
 import { Route as IndexImport } from './routes/index';
-import { Route as LoginIndexImport } from './routes/login/index';
 
 // Create Virtual Routes
 
+const LoginIndexLazyImport = createFileRoute('/login/')();
 const CategoryCategoryIdLazyImport = createFileRoute('/category/$categoryId')();
 
 // Create/Update Routes
@@ -22,10 +22,10 @@ const IndexRoute = IndexImport.update({
   getParentRoute: () => rootRoute,
 } as any);
 
-const LoginIndexRoute = LoginIndexImport.update({
+const LoginIndexLazyRoute = LoginIndexLazyImport.update({
   path: '/login/',
   getParentRoute: () => rootRoute,
-} as any);
+} as any).lazy(() => import('./routes/login/index.lazy').then((d) => d.Route));
 
 const CategoryCategoryIdLazyRoute = CategoryCategoryIdLazyImport.update({
   path: '/category/$categoryId',
@@ -47,7 +47,7 @@ declare module '@tanstack/react-router' {
       parentRoute: typeof rootRoute;
     };
     '/login/': {
-      preLoaderRoute: typeof LoginIndexImport;
+      preLoaderRoute: typeof LoginIndexLazyImport;
       parentRoute: typeof rootRoute;
     };
   }
@@ -58,7 +58,7 @@ declare module '@tanstack/react-router' {
 export const routeTree = rootRoute.addChildren([
   IndexRoute,
   CategoryCategoryIdLazyRoute,
-  LoginIndexRoute,
+  LoginIndexLazyRoute,
 ]);
 
 /* prettier-ignore-end */

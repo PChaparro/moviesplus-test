@@ -8,6 +8,8 @@ import clsx from 'clsx';
 import { MenuIcon, XIcon } from 'lucide-react';
 import { useState } from 'react';
 
+import { useSession } from '@/hooks/useSession';
+
 import navbarLinks from '@/data/navbar/links.json';
 
 import {
@@ -16,15 +18,25 @@ import {
 } from '@/components/shared/button/button';
 import { MoviesPlusLogo } from '@/components/shared/moviesPlusLogo/moviesPlusLogo';
 
-const { default: defaultLinks } = navbarLinks;
+const { default: defaultLinks, authenticated: authenticatedLinks } =
+  navbarLinks;
 
 export const MobileNavbar = () => {
+  // Global session state
+  const { isLoggedIn, user, logout } = useSession();
+
+  // Navbar state
   const [isOpen, setIsOpen] = useState(false);
 
   const router = useRouterState();
   const {
     location: { pathname },
   } = router;
+
+  const linksToRender = [...defaultLinks];
+  if (isLoggedIn) {
+    linksToRender.push(...authenticatedLinks);
+  }
 
   return (
     <nav className='container flex h-24 items-center justify-between gap-8 md:hidden'>
@@ -62,7 +74,7 @@ export const MobileNavbar = () => {
 
           {/* Links */}
           <ul className='flex flex-col gap-4'>
-            {defaultLinks.map((link) => (
+            {linksToRender.map((link) => (
               <li key={link.path}>
                 <Link
                   to={link.path}
@@ -81,14 +93,30 @@ export const MobileNavbar = () => {
           </ul>
 
           {/* Session items*/}
-          <div className={'flex flex-grow flex-col justify-end'}>
-            <Link
-              to='/login'
-              className={`${buttonVariantClassnames({ variant: 'primary' })}`}
-              onClick={() => setIsOpen(false)}
-            >
-              Sign In
-            </Link>
+          <div className={'flex flex-grow flex-col justify-end gap-8'}>
+            {isLoggedIn ? (
+              <>
+                <div className='flex items-center gap-4 capitalize'>
+                  <img
+                    src={user?.picture}
+                    alt={`${user?.username} profile`}
+                    className='h-12 w-12 rounded-md object-cover object-center'
+                  />
+                  <span className='text-sm font-semibold text-white/85'>
+                    {user?.username}
+                  </span>
+                </div>
+                <Button onClick={logout}>Logout</Button>
+              </>
+            ) : (
+              <Link
+                to='/login'
+                className={`${buttonVariantClassnames({ variant: 'primary' })}`}
+                onClick={() => setIsOpen(false)}
+              >
+                Sign In
+              </Link>
+            )}
           </div>
         </div>
       </div>
