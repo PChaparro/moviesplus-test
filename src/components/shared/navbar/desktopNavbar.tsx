@@ -1,18 +1,32 @@
 import { Link, useRouterState } from '@tanstack/react-router';
 import clsx from 'clsx';
 
+import { useSession } from '@/hooks/useSession';
+
 import navbarLinks from '@/data/navbar/links.json';
 
-import { buttonVariantClassnames } from '@/components/shared/button/button';
+import {
+  Button,
+  buttonVariantClassnames,
+} from '@/components/shared/button/button';
 import { MoviesPlusLogo } from '@/components/shared/moviesPlusLogo/moviesPlusLogo';
 
-const { default: defaultLinks } = navbarLinks;
+const { default: defaultLinks, authenticated: authenticatedLinks } =
+  navbarLinks;
 
 export const DesktopNavbar = () => {
+  // Global session state
+  const { isLoggedIn, user, logout } = useSession();
+
   const router = useRouterState();
   const {
     location: { pathname },
   } = router;
+
+  const linksToRender = [...defaultLinks];
+  if (isLoggedIn) {
+    linksToRender.push(...authenticatedLinks);
+  }
 
   return (
     <nav className='container hidden h-24 items-center justify-between gap-8 md:flex'>
@@ -20,7 +34,7 @@ export const DesktopNavbar = () => {
 
       {/* Links */}
       <ul className='flex flex-grow gap-4'>
-        {defaultLinks.map((link) => (
+        {linksToRender.map((link) => (
           <li key={link.path}>
             <Link
               to={link.path}
@@ -38,12 +52,23 @@ export const DesktopNavbar = () => {
       </ul>
 
       {/* Session items */}
-      <Link
-        to='/login'
-        className={buttonVariantClassnames({ variant: 'primary' })}
-      >
-        Sign In
-      </Link>
+      {isLoggedIn ? (
+        <>
+          <img
+            src={user?.picture}
+            alt={`${user?.username} profile`}
+            className='h-10 w-10 rounded-md object-cover object-center'
+          />
+          <Button onClick={logout}>Logout</Button>
+        </>
+      ) : (
+        <Link
+          to='/login'
+          className={buttonVariantClassnames({ variant: 'primary' })}
+        >
+          Sign In
+        </Link>
+      )}
     </nav>
   );
 };
