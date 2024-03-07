@@ -7,11 +7,11 @@ import { ContentCategorySkeleton } from '@/components/category/contentCategorySk
 import { MovieCard } from '@/components/shared/movieCard/MovieCard';
 
 export const Route = createLazyFileRoute('/category/$categoryId')({
-  component: Page,
+  component: ContentCategory,
   pendingComponent: ContentCategorySkeleton,
 });
 
-function Page() {
+function ContentCategory() {
   const { categoryId } = Route.useParams();
 
   const {
