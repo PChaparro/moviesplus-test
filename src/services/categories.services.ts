@@ -46,13 +46,20 @@ export async function getMoviesByCategoryService(
   );
 
   if (!categoriesMoviesMockData[categoryId]) {
-    throw new Error('Category not found');
+    throw new Error(
+      'The category you are looking for does not exist. Check all available categories and try again.',
+    );
   }
 
   const categoryData = categoriesMoviesMockData[categoryId];
 
   const requiredPageExists = categoryData.pages.length >= page;
-  if (!requiredPageExists) throw new Error('Page not found');
+
+  if (!requiredPageExists) {
+    throw new Error(
+      'The page you are looking for does not exist. Check all available pages or explore other categories.',
+    );
+  }
 
   const movies = categoryData.pages[page - 1];
   const hasNextPage = categoryData.pages.length > page;
