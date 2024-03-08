@@ -34,7 +34,7 @@ export const ContentDetails = ({ isLoading, movie }: ContentDetailsProps) => {
         >
           <p className='text-lg text-white/85'>{genresNames.join(', ')}.</p>
           <Button onClick={() => setIsMediaModalOpen(true)}>
-            <PlayIcon className='mr-2' /> Play now
+            <PlayIcon className='mr-2' /> Start watching
           </Button>
         </MovieHeader>
       </article>
