@@ -32,7 +32,7 @@ export const CustomError = ({
         <div className='absolute inset-0 bg-gradient-to-b from-transparent from-40% to-brand-bg/85 to-85%' />
       </div>
       <div className='mx-auto -mt-24 flex max-w-prose flex-col items-center gap-y-6 text-center text-white'>
-        <h1 className='text-4xl font-semibold'>{title}</h1>
+        <h1 className='text-balance text-4xl font-semibold'>{title}</h1>
         <p className='text-balance text-xl'>{message}</p>
         {showRedirect && (
           <Link
