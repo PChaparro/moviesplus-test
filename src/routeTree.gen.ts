@@ -13,6 +13,7 @@ import { Route as IndexImport } from './routes/index';
 // Create Virtual Routes
 
 const LoginIndexLazyImport = createFileRoute('/login/')();
+const MovieMovieIdLazyImport = createFileRoute('/movie/$movieId')();
 const CategoryCategoryIdLazyImport = createFileRoute('/category/$categoryId')();
 
 // Create/Update Routes
@@ -26,6 +27,13 @@ const LoginIndexLazyRoute = LoginIndexLazyImport.update({
   path: '/login/',
   getParentRoute: () => rootRoute,
 } as any).lazy(() => import('./routes/login/index.lazy').then((d) => d.Route));
+
+const MovieMovieIdLazyRoute = MovieMovieIdLazyImport.update({
+  path: '/movie/$movieId',
+  getParentRoute: () => rootRoute,
+} as any).lazy(() =>
+  import('./routes/movie/$movieId.lazy').then((d) => d.Route),
+);
 
 const CategoryCategoryIdLazyRoute = CategoryCategoryIdLazyImport.update({
   path: '/category/$categoryId',
@@ -46,6 +54,10 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CategoryCategoryIdLazyImport;
       parentRoute: typeof rootRoute;
     };
+    '/movie/$movieId': {
+      preLoaderRoute: typeof MovieMovieIdLazyImport;
+      parentRoute: typeof rootRoute;
+    };
     '/login/': {
       preLoaderRoute: typeof LoginIndexLazyImport;
       parentRoute: typeof rootRoute;
@@ -58,6 +70,7 @@ declare module '@tanstack/react-router' {
 export const routeTree = rootRoute.addChildren([
   IndexRoute,
   CategoryCategoryIdLazyRoute,
+  MovieMovieIdLazyRoute,
   LoginIndexLazyRoute,
 ]);
 

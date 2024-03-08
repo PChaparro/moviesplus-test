@@ -20,7 +20,7 @@ export const CustomError = ({
 }: CustomErrorProps) => {
   return (
     <div className='container'>
-      <div className='relative -z-[1] min-h-[50svh] overflow-hidden rounded-3xl'>
+      <div className='relative -z-[1] min-h-[50svh] overflow-hidden rounded-xl'>
         <img
           src={errorBackground}
           className='absolute inset-0 h-full w-full object-cover object-center'

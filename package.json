@@ -29,8 +29,11 @@
     "react-hook-form": "7.51.0",
     "react-infinite-scroll-component": "6.1.0",
     "react-loading-skeleton": "3.4.0",
+    "react-player": "2.15.1",
+    "react-responsive-modal": "6.4.2",
     "react-simple-star-rating": "5.1.7",
     "sonner": "1.4.3",
+    "swiper": "11.0.7",
     "yup": "1.4.0"
   },
   "devDependencies": {
