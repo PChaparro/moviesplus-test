@@ -127,15 +127,20 @@ export async function getSimilarMoviesService(
   // Find the category of the movie
   const allCategoriesPages = Object.values(categoriesMoviesMockData);
 
-  const movieCategory = allCategoriesPages.find((category) =>
+  const firstMovieCategory = allCategoriesPages.find((category) =>
     category.pages.flat(2).some((movie) => String(movie.id) === movieId),
   );
 
-  if (!movieCategory) {
+  if (!firstMovieCategory) {
     throw new Error(
       'We could not find the category of the movie you are looking for. Explore other movies from our categories instead.',
     );
   }
 
-  return getRandomMoviesByCategoryService(String(movieCategory.id));
+  const randomMoviesInSameCategory = await getRandomMoviesByCategoryService(
+    String(firstMovieCategory.id),
+  );
+  return randomMoviesInSameCategory.filter(
+    (movie) => String(movie.id) !== movieId,
+  );
 }
