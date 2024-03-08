@@ -71,3 +71,22 @@ export async function getMoviesByCategoryService(
     next: hasNextPage ? page + 1 : null,
   };
 }
+
+export async function getMovieByIdService(movieId: string): Promise<Movie> {
+  // Merge all categories (Since we don't know the category of the movie)
+  const allCategoriesPages = Object.values(categoriesMoviesMockData).map(
+    (category) => category.pages,
+  );
+  const allMovies = allCategoriesPages.flat(2);
+
+  // Find the movie
+  const movie = allMovies.find((movie) => String(movie.id) === movieId);
+
+  if (!movie) {
+    throw new Error(
+      'We could not find the movie you are looking for. Explore other movies from our categories instead.',
+    );
+  }
+
+  return movie;
+}
