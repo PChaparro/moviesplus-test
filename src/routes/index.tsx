@@ -2,7 +2,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { PlayIcon } from 'lucide-react';
 
 import { CategoriesSection } from '@/components/home/categories-section/categoriesSection';
-import { MovieHeader } from '@/components/movie/MovieHeader';
+import { MovieHeader } from '@/components/shared/MovieHeader/MovieHeader';
 import { Button } from '@/components/shared/button/button';
 
 export const Route = createFileRoute('/')({

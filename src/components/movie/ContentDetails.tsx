@@ -1,8 +1,16 @@
 import { Movie } from '@/types/definitions';
 
-import { MovieHeader } from './MovieHeader';
+import { MovieHeader } from '../shared/MovieHeader/MovieHeader';
+import { MovieHeaderSkeleton } from '../shared/MovieHeader/MovieHeaderSkeleton';
 
-export const ContentDetails = ({ movie }: { movie: Movie }) => {
+interface ContentDetailsProps {
+  isLoading: boolean;
+  movie: Movie | undefined;
+}
+
+export const ContentDetails = ({ isLoading, movie }: ContentDetailsProps) => {
+  if (isLoading || !movie) return <MovieHeaderSkeleton />;
+
   const genresNames = movie.genres.map((genre) => genre.name);
 
   return (
