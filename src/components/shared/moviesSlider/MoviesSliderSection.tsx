@@ -8,6 +8,7 @@ interface MoviesSliderProps {
   isLoading: boolean;
   movies: Movie[] | undefined;
   title: string;
+  isError?: boolean;
   redirect?: {
     title: string;
     to: string;
@@ -16,10 +17,13 @@ interface MoviesSliderProps {
 
 export const MoviesSliderSection = ({
   isLoading,
+  isError,
   movies,
   title,
   redirect,
 }: MoviesSliderProps) => {
+  if (isError) return null;
+
   return (
     <section className='mt-8'>
       <div className='mb-8 flex items-center justify-between'>

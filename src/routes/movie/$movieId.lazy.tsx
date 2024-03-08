@@ -30,8 +30,11 @@ function Page() {
   } = useMovie(movieId);
 
   // Get similar movies
-  const { similarMovies, isLoading: isLoadingSimilarMovies } =
-    useSimilarMovies(movieId);
+  const {
+    similarMovies,
+    isLoading: isLoadingSimilarMovies,
+    isError: isErrorSimilarMovies,
+  } = useSimilarMovies(movieId);
 
   if (isErrorMovie) return <CustomError message={errorMovie?.message} />;
 
@@ -40,6 +43,7 @@ function Page() {
       <ContentDetails isLoading={isLoadingMovie} movie={movie} />
       <MoviesSliderSection
         isLoading={isLoadingSimilarMovies}
+        isError={isErrorSimilarMovies}
         movies={similarMovies}
         title='Similar movies'
       />
