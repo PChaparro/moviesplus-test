@@ -2,6 +2,7 @@ import { createLazyFileRoute } from '@tanstack/react-router';
 
 import { useFavoriteMovies } from '@/hooks/useFavoriteMovies';
 
+import { FavoritesPageSkeleton } from '@/components/favorites/FavoritesPageSkeleton';
 import { CustomError } from '@/components/shared/error/CustomError';
 import { MovieCard } from '@/components/shared/movieCard/MovieCard';
 import { AuthenticationMiddleware } from '@/components/shared/session/AuthenticationMiddleware';
@@ -12,7 +13,7 @@ export const Route = createLazyFileRoute('/favorites/')({
       <Page />
     </AuthenticationMiddleware>
   ),
-  // pendingComponent: MoviePageSkeleton,
+  pendingComponent: FavoritesPageSkeleton,
 });
 
 function Page() {
