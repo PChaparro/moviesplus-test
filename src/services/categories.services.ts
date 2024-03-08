@@ -1,5 +1,5 @@
 import { Category, Movie } from '@/types/definitions';
-import { getRandomNumber } from '@/utils/utils';
+import { getRandomNumber, randomizeArray } from '@/utils/utils';
 
 import adventureMovies from '@/data/categories/12.json';
 import animationMovies from '@/data/categories/16.json';
@@ -41,18 +41,26 @@ export async function getMoviesByCategoryService(
   categoryId: string,
   page: number = 1,
 ): Promise<CategoryMoviesResponse> {
+  // Add a delay to simulate a real API request
   await new Promise((resolve) =>
     setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
   );
 
   if (!categoriesMoviesMockData[categoryId]) {
-    throw new Error('Category not found');
+    throw new Error(
+      'The category you are looking for does not exist. Check all available categories and try again.',
+    );
   }
 
   const categoryData = categoriesMoviesMockData[categoryId];
 
   const requiredPageExists = categoryData.pages.length >= page;
-  if (!requiredPageExists) throw new Error('Page not found');
+
+  if (!requiredPageExists) {
+    throw new Error(
+      'The page you are looking for does not exist. Check all available pages or explore other categories.',
+    );
+  }
 
   const movies = categoryData.pages[page - 1];
   const hasNextPage = categoryData.pages.length > page;
@@ -63,4 +71,76 @@ export async function getMoviesByCategoryService(
     movies,
     next: hasNextPage ? page + 1 : null,
   };
+}
+
+export async function getMovieByIdService(movieId: string): Promise<Movie> {
+  // Add a delay to simulate a real API request
+  await new Promise((resolve) =>
+    setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
+  );
+
+  // Merge all categories (Since we don't know the category of the movie)
+  const allCategoriesPages = Object.values(categoriesMoviesMockData).map(
+    (category) => category.pages,
+  );
+  const allMovies = allCategoriesPages.flat(2);
+
+  // Find the movie
+  const movie = allMovies.find((movie) => String(movie.id) === movieId);
+
+  if (!movie) {
+    throw new Error(
+      'We could not find the movie you are looking for. Explore other movies from our categories instead.',
+    );
+  }
+
+  return movie;
+}
+
+export async function getRandomMoviesByCategoryService(categoryId: string) {
+  // Add a delay to simulate a real API request
+  await new Promise((resolve) =>
+    setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
+  );
+
+  if (!categoriesMoviesMockData[categoryId]) {
+    throw new Error(
+      'The category you are looking for does not exist. Check all available categories and try again.',
+    );
+  }
+
+  const allMoviesInCategory =
+    categoriesMoviesMockData[categoryId].pages.flat(2);
+
+  const randomMovies = randomizeArray(allMoviesInCategory).slice(0, 10);
+  return randomMovies;
+}
+
+export async function getSimilarMoviesService(
+  movieId: string,
+): Promise<Movie[]> {
+  // Add a delay to simulate a real API request
+  await new Promise((resolve) =>
+    setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
+  );
+
+  // Find the category of the movie
+  const allCategoriesPages = Object.values(categoriesMoviesMockData);
+
+  const firstMovieCategory = allCategoriesPages.find((category) =>
+    category.pages.flat(2).some((movie) => String(movie.id) === movieId),
+  );
+
+  if (!firstMovieCategory) {
+    throw new Error(
+      'We could not find the category of the movie you are looking for. Explore other movies from our categories instead.',
+    );
+  }
+
+  const randomMoviesInSameCategory = await getRandomMoviesByCategoryService(
+    String(firstMovieCategory.id),
+  );
+  return randomMoviesInSameCategory.filter(
+    (movie) => String(movie.id) !== movieId,
+  );
 }

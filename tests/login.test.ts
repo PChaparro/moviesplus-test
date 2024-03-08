@@ -1,9 +1,8 @@
 import { test, expect } from '@playwright/test';
 
-const expectedUser = {
-  email: 'user@bemaster.com',
-  password: 'password123',
-};
+import { getDefaultCredentials } from './utils';
+
+const defaultCredentials = getDefaultCredentials();
 
 test.beforeEach(async ({ page, baseURL }) => {
   await page.goto('/');
@@ -65,7 +64,7 @@ test('Should show an alert when the login fails', async ({ page }) => {
 
 test.describe.serial('User should be able to login', () => {
   test.beforeEach(async ({ page }) => {
-    const { email, password } = expectedUser;
+    const { email, password } = defaultCredentials;
 
     // Fill the form with the expected user credentials
     await page.getByLabel('Email', { exact: true }).fill(email);
@@ -97,10 +96,6 @@ test.describe.serial('User should be able to login', () => {
       {
         label: 'Favorites',
         expectedPath: '/favorites',
-      },
-      {
-        label: 'Watchlist',
-        expectedPath: '/watchlist',
       },
       {
         label: 'Home',

@@ -4,9 +4,14 @@ import { createLazyFileRoute } from '@tanstack/react-router';
 
 import { LoginForm } from '@/components/login/LoginForm';
 import { LoginSkeleton } from '@/components/login/LoginSkeleton';
+import { AuthenticationMiddleware } from '@/components/shared/session/AuthenticationMiddleware';
 
 export const Route = createLazyFileRoute('/login/')({
-  component: Login,
+  component: () => (
+    <AuthenticationMiddleware isExclusiveForGuests>
+      <Login />
+    </AuthenticationMiddleware>
+  ),
   pendingComponent: LoginSkeleton,
 });
 

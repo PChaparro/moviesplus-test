@@ -29,25 +29,30 @@ export const AuthContextProvider = ({
 
   // Global session state
   const [user, setUser] = useState<SessionUser | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   // Effects
   // Try to restore the session from local storage on mount
   useEffect(() => {
     // Get the item
     const session = getFromLocalStorage('session');
-    if (!session) return;
+    if (!session) {
+      setIsLoading(false);
+      return;
+    }
 
     // Check the expiration
     const parsedSession = JSON.parse(session) as PersistedSessionUser;
     if (parsedSession.exp < Date.now()) {
       removeFromLocalStorage('session');
+      setIsLoading(false);
       return;
     }
 
     // Set the user if the session is still valid
     const { exp: _exp, ...user } = parsedSession;
     setUser(user);
+    setIsLoading(false);
   }, []);
 
   const currentValues: AuthContextValues = {
