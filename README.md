@@ -35,6 +35,7 @@ React, TypeScript, React Context API, Tailwind CSS, Playwright, TanStack Router,
 ### Adicionales 🚀
 
 - [x] Manejo de estados de carga por cada componente utilizando loading skeletons. ⏳
+- [x] Estado global de películas favoritas utilizando Context API. ❤️
 - [x] Paginación con scroll infinito para la vista de categoría. 📜
 - [x] Uso de [custom hooks](./src//hooks/) para abstraer la lógica del fetching de datos. 🪝
 - [x] Uso de [Playwright](https://playwright.dev/) para realizar pruebas end-to-end. 🧪
