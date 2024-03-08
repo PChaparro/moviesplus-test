@@ -19,3 +19,7 @@ export function getBackdropUrlByPath(backdropPath: string): string {
 export function roundDecimal(value: number, decimals: number): number {
   return Number(value.toFixed(decimals));
 }
+
+export function randomizeArray<T>(array: T[]): T[] {
+  return array.sort(() => Math.random() - 0.5);
+}

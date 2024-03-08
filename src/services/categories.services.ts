@@ -1,5 +1,5 @@
 import { Category, Movie } from '@/types/definitions';
-import { getRandomNumber } from '@/utils/utils';
+import { getRandomNumber, randomizeArray } from '@/utils/utils';
 
 import adventureMovies from '@/data/categories/12.json';
 import animationMovies from '@/data/categories/16.json';
@@ -89,4 +89,37 @@ export async function getMovieByIdService(movieId: string): Promise<Movie> {
   }
 
   return movie;
+}
+
+export async function getRandomMoviesByCategoryService(categoryId: string) {
+  if (!categoriesMoviesMockData[categoryId]) {
+    throw new Error(
+      'The category you are looking for does not exist. Check all available categories and try again.',
+    );
+  }
+
+  const allMoviesInCategory =
+    categoriesMoviesMockData[categoryId].pages.flat(2);
+
+  const randomMovies = randomizeArray(allMoviesInCategory).slice(0, 10);
+  return randomMovies;
+}
+
+export async function getSimilarMoviesService(
+  movieId: string,
+): Promise<Movie[]> {
+  // Find the category of the movie
+  const allCategoriesPages = Object.values(categoriesMoviesMockData);
+
+  const movieCategory = allCategoriesPages.find((category) =>
+    category.pages.flat(2).some((movie) => String(movie.id) === movieId),
+  );
+
+  if (!movieCategory) {
+    throw new Error(
+      'We could not find the category of the movie you are looking for. Explore other movies from our categories instead.',
+    );
+  }
+
+  return getRandomMoviesByCategoryService(String(movieCategory.id));
 }
