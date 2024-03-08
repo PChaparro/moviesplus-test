@@ -33,12 +33,18 @@ export const MovieHeader = ({
           <h1 className='text-balance text-3xl font-semibold tracking-wide md:text-5xl'>
             {title}
           </h1>
-          <p className='line-clamp-4 text-balance text-lg text-white/85'>
+          <p
+            className='line-clamp-4 text-balance text-lg text-white/85'
+            data-testid='movie-overview'
+          >
             {overview}
           </p>
           {children}
           {votes && (
-            <div className='flex flex-wrap items-center gap-2 text-white/85'>
+            <div
+              className='flex flex-wrap items-center gap-2 text-white/85'
+              data-testid='movie-rating'
+            >
               <Rating
                 SVGclassName='inline-block'
                 initialValue={parsedVoteAverage}
