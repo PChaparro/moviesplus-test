@@ -13,6 +13,7 @@ import { Route as IndexImport } from './routes/index';
 // Create Virtual Routes
 
 const LoginIndexLazyImport = createFileRoute('/login/')();
+const FavoritesIndexLazyImport = createFileRoute('/favorites/')();
 const MovieMovieIdLazyImport = createFileRoute('/movie/$movieId')();
 const CategoryCategoryIdLazyImport = createFileRoute('/category/$categoryId')();
 
@@ -27,6 +28,13 @@ const LoginIndexLazyRoute = LoginIndexLazyImport.update({
   path: '/login/',
   getParentRoute: () => rootRoute,
 } as any).lazy(() => import('./routes/login/index.lazy').then((d) => d.Route));
+
+const FavoritesIndexLazyRoute = FavoritesIndexLazyImport.update({
+  path: '/favorites/',
+  getParentRoute: () => rootRoute,
+} as any).lazy(() =>
+  import('./routes/favorites/index.lazy').then((d) => d.Route),
+);
 
 const MovieMovieIdLazyRoute = MovieMovieIdLazyImport.update({
   path: '/movie/$movieId',
@@ -58,6 +66,10 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MovieMovieIdLazyImport;
       parentRoute: typeof rootRoute;
     };
+    '/favorites/': {
+      preLoaderRoute: typeof FavoritesIndexLazyImport;
+      parentRoute: typeof rootRoute;
+    };
     '/login/': {
       preLoaderRoute: typeof LoginIndexLazyImport;
       parentRoute: typeof rootRoute;
@@ -71,6 +83,7 @@ export const routeTree = rootRoute.addChildren([
   IndexRoute,
   CategoryCategoryIdLazyRoute,
   MovieMovieIdLazyRoute,
+  FavoritesIndexLazyRoute,
   LoginIndexLazyRoute,
 ]);
 

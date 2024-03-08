@@ -3,7 +3,12 @@ import { getPosterUrlByPath, roundDecimal } from '@/utils/utils';
 import { Link } from '@tanstack/react-router';
 import { Rating } from 'react-simple-star-rating';
 
+import { useSession } from '@/hooks/useSession';
+
+import { MovieFavoriteButton } from './MovieFavoriteButton';
+
 export const MovieCard = ({ movie }: { movie: Movie }) => {
+  const { isLoggedIn } = useSession();
   const parsedVoteAverage = roundDecimal(movie.vote_average / 2, 2);
 
   return (
@@ -14,6 +19,7 @@ export const MovieCard = ({ movie }: { movie: Movie }) => {
           src={getPosterUrlByPath(movie.poster_path)}
           alt={movie.title}
         />
+        {isLoggedIn && <MovieFavoriteButton movie={movie} />}
         <div className='absolute inset-0 flex flex-col justify-end gap-2 bg-gradient-to-b from-transparent from-50% to-brand-bg/85 to-75% p-8'>
           <h2 className='text-xl font-semibold'>{movie.title}</h2>
           <div className='flex flex-wrap justify-between gap-2'>
