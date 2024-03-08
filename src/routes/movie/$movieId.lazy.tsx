@@ -7,9 +7,14 @@ import { ContentDetails } from '@/components/movie/ContentDetails';
 import { MoviePageSkeleton } from '@/components/movie/MoviePageSkeleton';
 import { CustomError } from '@/components/shared/error/CustomError';
 import { MoviesSliderSection } from '@/components/shared/moviesSlider/MoviesSliderSection';
+import { AuthenticationMiddleware } from '@/components/shared/session/AuthenticationMiddleware';
 
 export const Route = createLazyFileRoute('/movie/$movieId')({
-  component: Page,
+  component: () => (
+    <AuthenticationMiddleware isExclusiveForLoggedUsers>
+      <Page />
+    </AuthenticationMiddleware>
+  ),
   pendingComponent: MoviePageSkeleton,
 });
 
