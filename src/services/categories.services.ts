@@ -41,6 +41,7 @@ export async function getMoviesByCategoryService(
   categoryId: string,
   page: number = 1,
 ): Promise<CategoryMoviesResponse> {
+  // Add a delay to simulate a real API request
   await new Promise((resolve) =>
     setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
   );
@@ -73,6 +74,11 @@ export async function getMoviesByCategoryService(
 }
 
 export async function getMovieByIdService(movieId: string): Promise<Movie> {
+  // Add a delay to simulate a real API request
+  await new Promise((resolve) =>
+    setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
+  );
+
   // Merge all categories (Since we don't know the category of the movie)
   const allCategoriesPages = Object.values(categoriesMoviesMockData).map(
     (category) => category.pages,
@@ -92,6 +98,11 @@ export async function getMovieByIdService(movieId: string): Promise<Movie> {
 }
 
 export async function getRandomMoviesByCategoryService(categoryId: string) {
+  // Add a delay to simulate a real API request
+  await new Promise((resolve) =>
+    setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
+  );
+
   if (!categoriesMoviesMockData[categoryId]) {
     throw new Error(
       'The category you are looking for does not exist. Check all available categories and try again.',
@@ -108,6 +119,11 @@ export async function getRandomMoviesByCategoryService(categoryId: string) {
 export async function getSimilarMoviesService(
   movieId: string,
 ): Promise<Movie[]> {
+  // Add a delay to simulate a real API request
+  await new Promise((resolve) =>
+    setTimeout(resolve, getRandomNumber({ min: 200, max: 500 })),
+  );
+
   // Find the category of the movie
   const allCategoriesPages = Object.values(categoriesMoviesMockData);
 
