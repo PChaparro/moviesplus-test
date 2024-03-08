@@ -30,10 +30,10 @@ export const MovieHeader = ({
       />
       <div className='absolute inset-0 bg-gradient-to-t from-brand-bg/85 from-15% to-transparent to-75% p-8 md:bg-gradient-to-r md:p-12'>
         <div className='flex h-full max-w-md flex-col items-start justify-end gap-4 text-white md:justify-center'>
-          <h1 className='text-3xl  font-semibold tracking-wide md:text-5xl'>
+          <h1 className='text-balance text-3xl font-semibold tracking-wide md:text-5xl'>
             {title}
           </h1>
-          <p className='line-clamp-6 text-balance text-lg text-white/85'>
+          <p className='line-clamp-4 text-balance text-lg text-white/85'>
             {overview}
           </p>
           {children}
